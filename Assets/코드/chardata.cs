@@ -82,11 +82,11 @@ public class chardata : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
             {
-                rb.linearVelocity = new Vector2(-movespeed, rb.linearVelocity.y); // X좌표를 -5씩 이동하고 y좌표는 그대로(왼쪽 이동)
+                rb.linearVelocity = new Vector2(-movespeed, rb.linearVelocity.y); // X좌표를 현재 speed만큼 이동하고 y좌표는 그대로(왼쪽 이동)
             }
             else if (Input.GetKey(KeyCode.D)) //D키를 누르고 있는동안 작동
             {
-                rb.linearVelocity = new Vector2(movespeed, rb.linearVelocity.y); // y좌표를 5씩 이동하고 y좌표는 그대로(오른쪽 이동)
+                rb.linearVelocity = new Vector2(movespeed, rb.linearVelocity.y); // y좌표를 현재 -speed만큼 이동하고 y좌표는 그대로(오른쪽 이동)
             }
             else //아무것도 안누르고 있을때
             {
@@ -95,7 +95,7 @@ public class chardata : MonoBehaviour
         }
         
 
-        if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)))
+        if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
         {
             movespeed = 9;
         }
