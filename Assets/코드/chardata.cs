@@ -15,6 +15,7 @@ public class chardata : MonoBehaviour
 
     public float movespeed = 5; //이동 스피드
     bool dashing = false; //대쉬중 상태
+    bool candash = false; //대쉬가 가능한상태인가
 
 
     public Rigidbody2D rb; //물리엔진 담아놓을 변수 정하기
@@ -58,11 +59,15 @@ public class chardata : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-
+            movespeed = 9;
         }
         else
         {
-
+            movespeed = 5;
+            if(Time.time > dashcooltime + lastdash)
+            {
+                candash = true;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1) && nowweapon != weaponeslot[0] && Time.time >= swaptime + swapspeed && weaponeslot[0] != null) // 1번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
@@ -86,22 +91,31 @@ public class chardata : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
         {
-            rb.linearVelocity = new Vector2(-5, rb.linearVelocity.y); // X좌표를 -5씩 이동하고 y좌표는 그대로(왼쪽 이동)
+            rb.linearVelocity = new Vector2(-movespeed, rb.linearVelocity.y); // X좌표를 -5씩 이동하고 y좌표는 그대로(왼쪽 이동)
         }
         else if (Input.GetKey(KeyCode.D)) //D키를 누르고 있는동안 작동
         {
-            rb.linearVelocity = new Vector2(5, rb.linearVelocity.y); // y좌표를 5씩 이동하고 y좌표는 그대로(오른쪽 이동)
+            rb.linearVelocity = new Vector2(movespeed, rb.linearVelocity.y); // y좌표를 5씩 이동하고 y좌표는 그대로(오른쪽 이동)
         }
         else //아무것도 안누르고 있을때
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); //속도값 0으로 변경(미끄러지기 방지)
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && Input.GetKey(KeyCode.A) && Time.time > dashcooltime + lastdash) //마지막 대쉬 + 대쉬 쿨타임이 현재 시간보다 낮고 a버튼을 누르고 있을때 쉬프트를 누르면 왼쪽으로 빠르게 대쉬
+        if (Input.GetKeyDown(KeyCode.LeftShift) && candash)
         {
-            rb.linearVelocity = new Vector2(-20, rb.linearVelocity.y); // x좌표를 빠르게 20으로 이동
-            lastdash = Time.time; // 시간 갱신
+            if(Input.GetKey(KeyCode.A))
+            {
+                rb.linearVelocity = new Vector2(-20, rb.linearVelocity.y);
+            }
+            else if (Input.GetKey(KeyCode.D)){
+                rb.linearVelocity = new Vector2(20, rb.linearVelocity.y);
+            }
+
+            candash = false;
+            lastdash = Time.time;
         }
+        
 
         weaponeswap(); //눌렀는지 계속 검사해야하기 때문에 호출
 
