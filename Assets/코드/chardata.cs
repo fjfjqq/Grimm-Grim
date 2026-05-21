@@ -10,8 +10,10 @@ public class chardata : MonoBehaviour
     public float lasttime = -99f; //마지막 공격 시간
     public float swaptime = -99f; //마지막으로 무기를 교체한 시간
     public float swapspeed = 1f; //무기 교체 쿨타임
+
     public float dashcooltime = 1f; //대쉬 쿨타임
     public float lastdash = -99f; //마지막으로 대쉬한 시간
+    public float endofdash = -99f; //대쉬 지속중인시간
 
     public float movespeed = 5; //이동 스피드
     bool dashing = false; //대쉬중 상태
@@ -57,19 +59,6 @@ public class chardata : MonoBehaviour
 
     void weaponeswap()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            movespeed = 9;
-        }
-        else
-        {
-            movespeed = 5;
-            if(Time.time > dashcooltime + lastdash)
-            {
-                candash = true;
-            }
-        }
-
         if (Input.GetKeyDown(KeyCode.Alpha1) && nowweapon != weaponeslot[0] && Time.time >= swaptime + swapspeed && weaponeslot[0] != null) // 1번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
         {
             nowweapon = weaponeslot[0]; //현재 무기를 1번 웨폰칸에 있는걸로 바꾸고
@@ -89,22 +78,38 @@ public class chardata : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
+        if(dashing == false)
         {
-            rb.linearVelocity = new Vector2(-movespeed, rb.linearVelocity.y); // X좌표를 -5씩 이동하고 y좌표는 그대로(왼쪽 이동)
+            if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
+            {
+                rb.linearVelocity = new Vector2(-movespeed, rb.linearVelocity.y); // X좌표를 -5씩 이동하고 y좌표는 그대로(왼쪽 이동)
+            }
+            else if (Input.GetKey(KeyCode.D)) //D키를 누르고 있는동안 작동
+            {
+                rb.linearVelocity = new Vector2(movespeed, rb.linearVelocity.y); // y좌표를 5씩 이동하고 y좌표는 그대로(오른쪽 이동)
+            }
+            else //아무것도 안누르고 있을때
+            {
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); //속도값 0으로 변경(미끄러지기 방지)
+            }
         }
-        else if (Input.GetKey(KeyCode.D)) //D키를 누르고 있는동안 작동
+        
+
+        if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)))
         {
-            rb.linearVelocity = new Vector2(movespeed, rb.linearVelocity.y); // y좌표를 5씩 이동하고 y좌표는 그대로(오른쪽 이동)
+            movespeed = 9;
         }
-        else //아무것도 안누르고 있을때
+        else
         {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); //속도값 0으로 변경(미끄러지기 방지)
+            movespeed = 5;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && candash)
         {
-            if(Input.GetKey(KeyCode.A))
+            dashing = true;
+            endofdash = Time.time + 0.1f;
+
+            if (Input.GetKey(KeyCode.A))
             {
                 rb.linearVelocity = new Vector2(-20, rb.linearVelocity.y);
             }
@@ -115,7 +120,16 @@ public class chardata : MonoBehaviour
             candash = false;
             lastdash = Time.time;
         }
-        
+
+        if(dashing && Time.time > endofdash)
+        {
+            dashing = false;
+        }
+        if (Time.time > dashcooltime + lastdash)
+        {
+            candash = true;
+        }
+
 
         weaponeswap(); //눌렀는지 계속 검사해야하기 때문에 호출
 
