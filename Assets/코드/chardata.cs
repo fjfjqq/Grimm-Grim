@@ -7,9 +7,15 @@ public class chardata : MonoBehaviour
 
     public float dashpeed = 5f;  //일반 이동속도에 더 해줄것 그렇게 대쉬 이동속도를 만듦
 
-    public float lasttime = 0f; //마지막 공격 시간
-    public float swaptime = 0f; //마지막으로 무기를 교체한 시간
+    public float lasttime = -99f; //마지막 공격 시간
+    public float swaptime = -99f; //마지막으로 무기를 교체한 시간
     public float swapspeed = 1f; //무기 교체 쿨타임
+    public float dashcooltime = 1f; //대쉬 쿨타임
+    public float lastdash = -99f; //마지막으로 대쉬한 시간
+
+    public float movespeed = 5; //이동 스피드
+    bool dashing = false; //대쉬중 상태
+
 
     public Rigidbody2D rb; //물리엔진 담아놓을 변수 정하기
 
@@ -50,6 +56,14 @@ public class chardata : MonoBehaviour
 
     void weaponeswap()
     {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+
+        }
+        else
+        {
+
+        }
 
         if (Input.GetKeyDown(KeyCode.Alpha1) && nowweapon != weaponeslot[0] && Time.time >= swaptime + swapspeed && weaponeslot[0] != null) // 1번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
         {
@@ -81,6 +95,12 @@ public class chardata : MonoBehaviour
         else //아무것도 안누르고 있을때
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); //속도값 0으로 변경(미끄러지기 방지)
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && Input.GetKey(KeyCode.A) && Time.time > dashcooltime + lastdash) //마지막 대쉬 + 대쉬 쿨타임이 현재 시간보다 낮고 a버튼을 누르고 있을때 쉬프트를 누르면 왼쪽으로 빠르게 대쉬
+        {
+            rb.linearVelocity = new Vector2(-20, rb.linearVelocity.y); // x좌표를 빠르게 20으로 이동
+            lastdash = Time.time; // 시간 갱신
         }
 
         weaponeswap(); //눌렀는지 계속 검사해야하기 때문에 호출
