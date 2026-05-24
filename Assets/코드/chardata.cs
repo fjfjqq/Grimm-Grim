@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEditor.PlayerSettings;
 public class chardata : MonoBehaviour
@@ -19,12 +20,37 @@ public class chardata : MonoBehaviour
     bool dashing = false; //대쉬중 상태
     bool candash = false; //대쉬가 가능한상태인가
 
+    public int maxhp = 6;
+    public int nowhp = 6;
+    bool nodamage = false;
+    public float lasthit = -99f;
+    public float nodamagetime = 0.8f;
+
+
+
 
     public Rigidbody2D rb; //물리엔진 담아놓을 변수 정하기
 
     public Transform groundCheck; //그라운드 체크에 위치값 담는 용도
     public float groundchecksize = 0.2f; //그라운드 체크할 원 크기
     public LayerMask groundcheck; // 그라운드만 감지하는 마스크용
+
+    public void damagesystem()
+    {
+        if (nodamage)
+        {
+            return;
+        }
+
+        nowhp = nowhp - 1;
+        nodamage = true;
+        lasthit = Time.time;
+
+        if (nowhp <= 0)
+        {
+            Debug.Log("죽음");
+        }
+    }
 
     void Start()
     {
@@ -76,8 +102,19 @@ public class chardata : MonoBehaviour
         }
     }
 
+    void hpsystem()
+    {
+        
+
+    }
+
     void Update()
     {
+        if(nodamage && Time.time > lasthit + nodamagetime)
+        {
+            nodamage = false;
+        }
+
         if(dashing == false)
         {
             if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
