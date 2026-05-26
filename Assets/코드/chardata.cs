@@ -102,17 +102,11 @@ public class chardata : MonoBehaviour
         }
     }
 
-    void hpsystem()
-    {
-        
-
-    }
-
     void Update()
     {
         if(nodamage && Time.time > lasthit + nodamagetime)
         {
-            nodamage = false;
+            nodamage = false; //
         }
 
         if(dashing == false)

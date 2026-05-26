@@ -128,6 +128,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 344963318}
+  - component: {fileID: 344963319}
+  - component: {fileID: 344963320}
   m_Layer: 5
   m_Name: Hp
   m_TagString: Untagged
@@ -151,9 +153,51 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -840, y: 350.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &344963319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344963317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96c8be0fc1a710419ac0b88045f0c56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::hpui
+  heart: {fileID: 7193660591008061325, guid: 98213e0bd5f68bf418d927187ebc90ca, type: 3}
+  hpvessel: {fileID: 344963318}
+  user: {fileID: 1668318739}
+  heartsystem: []
+--- !u!114 &344963320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344963317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.HorizontalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 20
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &476902557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,6 +1192,10 @@ MonoBehaviour:
   lastdash: -99
   endofdash: -99
   movespeed: 5
+  maxhp: 6
+  nowhp: 6
+  lasthit: -99
+  nodamagetime: 0.8
   rb: {fileID: 0}
   groundCheck: {fileID: 476902558}
   groundchecksize: 0.2
