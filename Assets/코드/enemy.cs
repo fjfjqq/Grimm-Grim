@@ -13,7 +13,7 @@ public class enemy : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); //어덯게 해야할까 고민중
+        rb = GetComponent<Rigidbody2D>(); //진짜 수정하고 수정하고 포인터 지정해서 할까했는데 유저랑 충돌하면 이상해지고
 
         
 
