@@ -26,6 +26,12 @@ public class chardata : MonoBehaviour
     public float lasthit = -99f;
     public float nodamagetime = 0.8f;
 
+    public float coyotetime = 0.1f;
+    public float coyotetimer = 0f;
+
+    public bool stepground;
+
+
 
 
 
@@ -109,6 +115,17 @@ public class chardata : MonoBehaviour
             nodamage = false; //
         }
 
+        if (stepground)
+        {
+            coyotetimer = coyotetime;
+        }
+        else
+        {
+            coyotetimer -= Time.deltaTime;
+        }
+
+
+
         if(dashing == false)
         {
             if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
@@ -164,9 +181,9 @@ public class chardata : MonoBehaviour
 
         weaponeswap(); //눌렀는지 계속 검사해야하기 때문에 호출
 
-        bool stepground = Physics2D.OverlapCircle(groundCheck.position, groundchecksize, groundcheck); // 아까 위에서 만들었던 원에 그라운드 레이어 겹치면 stepground를 true로 아니면 flase로
+        stepground = Physics2D.OverlapCircle(groundCheck.position, groundchecksize, groundcheck); // 아까 위에서 만들었던 원에 그라운드 레이어 겹치면 stepground를 true로 아니면 flase로
 
-        if (Input.GetKeyDown(KeyCode.Space) && stepground) //stepground가 true일때 스페이스 키를 누르면 실행
+        if (Input.GetKeyDown(KeyCode.Space) && coyotetimer > 0) //stepground가 true일때 스페이스 키를 누르면 실행
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 14); //y좌표를 14로 바꿈
 
