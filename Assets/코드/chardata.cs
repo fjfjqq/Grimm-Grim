@@ -142,7 +142,7 @@ public class chardata : MonoBehaviour
             }
         }
         
-
+        //서버에서 수정함
         if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
         {
             movespeed = 9;
