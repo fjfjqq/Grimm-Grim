@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.U2D.IK;
 
 public class enemy : MonoBehaviour 
 {
@@ -24,6 +23,10 @@ public class enemy : MonoBehaviour
     {
         Vector2 laycast = Nowmoving();
 
+        Debug.Log("laycast" + laycast + "down" + down);
+
+        Debug.DrawRay(transform.position, down * groundcheck, Color.red);
+
         if (Frontup(laycast))
         {
             turncorner();
@@ -33,17 +36,19 @@ public class enemy : MonoBehaviour
         transform.position += (Vector3)(laycast * movespeed * Time.deltaTime);
         shootlaycast();
         rollthesurface();
+
+
     }
 
     Vector2 Nowmoving()
     {
         if (turnclock)
         {
-            return new Vector2(down.x, -down.y);
+            return new Vector2(down.y, -down.x);
         }
         else
         {
-            return new Vector2(down.x, down.y);
+            return new Vector2(-down.y, down.x);
         }
     }
 
@@ -51,11 +56,11 @@ public class enemy : MonoBehaviour
     {
         if (turnclock)
         {
-            down = new Vector2(down.x, -down.y);
+            down = new Vector2(down.y, -down.x);
         }
         else
         {
-            down = new Vector2(down.x, down.y);
+            down = new Vector2(-down.y, down.x);
         }
     }
 
