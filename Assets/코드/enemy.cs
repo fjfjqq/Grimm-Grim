@@ -1,58 +1,87 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.U2D.IK;
 
 public class enemy : MonoBehaviour 
 {
     public int maxhp = 3;
     public int nowhp = 3;
-    public float movespeed = 2f;     
-    public float inground = 0.6f;
-    public LayerMask groundcheck;
 
-    private Rigidbody2D rb;
-    public Vector2 movetheground = Vector2.left;
+    public float movespeed = 2f;
+    public bool turnclock = true;
 
+    public float groundcheck = 0.6f;
+    public float sidecheck = 0.3f;
+    public LayerMask ground;
+
+    public Vector2 down = Vector2.down;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+
     }
 
     void Update()
     {
-        rb.linearVelocity = movetheground * movespeed;
+        Vector2 laycast = Nowmoving();
 
-        Vector2 movethewall;
-
-        if (movetheground == Vector2.left)
+        if (Frontup(laycast))
         {
-            movethewall = Vector2.down;
+            turncorner();
+            laycast = Nowmoving();
         }
-        else if(movetheground == Vector2.down)
+
+        transform.position += (Vector3)(laycast * movespeed * Time.deltaTime);
+        shootlaycast();
+        rollthesurface();
+    }
+
+    Vector2 Nowmoving()
+    {
+        if (turnclock)
         {
-            movethewall = Vector2.right;
-        }   
-        else if(movetheground == Vector2.right)
-        {
-            movethewall = Vector2.up;
+            return new Vector2(down.x, -down.y);
         }
         else
         {
-            movethewall = Vector2.left;
+            return new Vector2(down.x, down.y);
         }
+    }
 
-        RaycastHit2D fronthit = Physics2D.Raycast(transform.position, movetheground, inground, groundcheck);
-
-        RaycastHit2D sidehit = Physics2D.Raycast(transform.position, movethewall, inground, groundcheck);
-
-        if(fronthit.collider != null)
+    void turncorner()
+    {
+        if (turnclock)
         {
-            movetheground = -movethewall;
+            down = new Vector2(down.x, -down.y);
         }
-        else if (sidehit == null)
+        else
         {
-            movetheground = movethewall;
+            down = new Vector2(down.x, down.y);
         }
+    }
 
+    bool Frontup(Vector2 laycast)
+    {
+        Vector2 start = (Vector2)transform.position + laycast * sidecheck;
+
+        RaycastHit2D hit = Physics2D.Raycast(start, down, groundcheck, ground);
+
+        return hit.collider == null;
+    } 
+
+    void shootlaycast()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, down, groundcheck, ground);
+
+        if(hit.collider != null)
+        {
+            float off = 0.1f;
+            transform.position = hit.point - down * off;
+        }
+    }
+
+    void rollthesurface()
+    {
+        transform.rotation = Quaternion.FromToRotation(Vector2.down, down);
     }
 
 }
