@@ -56,6 +56,8 @@ public class chardata : MonoBehaviour
         {
             Debug.Log("죽음");
         }
+
+        
     }
 
     void Start()

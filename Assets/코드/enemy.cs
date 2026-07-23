@@ -5,6 +5,7 @@ public class enemy : MonoBehaviour
 {
     public int maxhp = 3;
     public int nowhp = 3;
+    public int damage = 1;
 
     public float movespeed = 2f;
     public Transform[] turnpoint;
