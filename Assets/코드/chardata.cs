@@ -31,10 +31,7 @@ public class chardata : MonoBehaviour
 
     public bool stepground;
 
-
-
-
-
+    public Animator animator;
     public Rigidbody2D rb; //물리엔진 담아놓을 변수 정하기
 
     public Transform groundCheck; //그라운드 체크에 위치값 담는 용도
@@ -56,8 +53,6 @@ public class chardata : MonoBehaviour
         {
             Debug.Log("죽음");
         }
-
-        
     }
 
     void Start()
@@ -89,6 +84,8 @@ public class chardata : MonoBehaviour
         weaponeslot[2] = null; //나머지는 나중에 얻으니깐 비워두기
 
         nowweapon = weaponeslot[0]; //현재 시작 할때 무기는 1번에만 들어가있으므로 정해주고 시작
+
+        animator = GetComponent<Animator>();
     }
 
     void weaponeswap()
@@ -108,6 +105,11 @@ public class chardata : MonoBehaviour
             nowweapon = weaponeslot[2]; //현재 무기를 3번 웨폰칸에 있는걸로 바꾸고
             swaptime = Time.time; //마지막으로 바꾼 시간 갱신
         }
+    }
+
+    public void leftmove()
+    {
+        Debug.Log("leftmove");
     }
 
     void Update()
@@ -133,14 +135,19 @@ public class chardata : MonoBehaviour
             if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
             {
                 rb.linearVelocity = new Vector2(-movespeed, rb.linearVelocity.y); // X좌표를 현재 speed만큼 이동하고 y좌표는 그대로(왼쪽 이동)
+                GetComponent<SpriteRenderer>().flipX = true;
+                animator.SetBool("iswalking", true);
             }
             else if (Input.GetKey(KeyCode.D)) //D키를 누르고 있는동안 작동
             {
                 rb.linearVelocity = new Vector2(movespeed, rb.linearVelocity.y); // y좌표를 현재 -speed만큼 이동하고 y좌표는 그대로(오른쪽 이동)
+                GetComponent<SpriteRenderer>().flipX = false;
+                animator.SetBool("iswalking", true);
             }
             else //아무것도 안누르고 있을때
             {
                 rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); //속도값 0으로 변경(미끄러지기 방지)
+                animator.SetBool("iswalking", false);
             }
         }
         
@@ -149,10 +156,13 @@ public class chardata : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
         {
             movespeed = 9;
+            animator.SetBool("isruning", true);
+            animator.SetBool("iswalking", false);
         }
         else
         {
             movespeed = 5;
+            animator.SetBool("isruning", false);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && candash)

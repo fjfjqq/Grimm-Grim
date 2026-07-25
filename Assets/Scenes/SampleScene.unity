@@ -19396,6 +19396,7 @@ MonoBehaviour:
   coyotetime: 0.1
   coyotetimer: 0
   stepground: 0
+  animator: {fileID: 0}
   rb: {fileID: 0}
   groundCheck: {fileID: 476902558}
   groundchecksize: 0.2
