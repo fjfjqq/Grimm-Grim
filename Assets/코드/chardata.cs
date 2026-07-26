@@ -75,21 +75,22 @@ public class chardata : MonoBehaviour
             return;
         }
 
-        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
-        {
-            ChangeAnimation("iswalking");
-        }
-        else if(Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
-        {
-            ChangeAnimation("isruning");
-        }
-        else if(rb.linearVelocity.y > 0.1f && stepground == false)
+
+        if (rb.linearVelocity.y > 0.1f && stepground == false)
         {
             ChangeAnimation("isjumping");
         }
-        else if(rb.linearVelocity.y < 0.1f && stepground == false)
+        else if (rb.linearVelocity.y < 0.1f && stepground == false)
         {
             ChangeAnimation("isfalling");
+        }
+        else if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+        {
+            ChangeAnimation("isruning");
+        }
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            ChangeAnimation("iswalking");
         }
         else if (Input.GetMouseButtonDown(0))
         {
