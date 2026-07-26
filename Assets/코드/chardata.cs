@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEditor.PlayerSettings;
@@ -55,6 +56,51 @@ public class chardata : MonoBehaviour
         }
     }
 
+    void ChangeAnimation(string animationname)
+    {
+        animator.SetBool("iswalking", false);
+        animator.SetBool("isruning", false);
+        animator.SetBool("isjumping", false);
+        animator.SetBool("isfalling", false);
+        animator.SetBool("isswordattack", false);
+        animator.SetBool("playerstand", false);
+
+        animator.SetBool(animationname, true);
+    }
+
+    void ReturnAnimation()
+    {
+        if (dashing)
+        {
+            return;
+        }
+
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            ChangeAnimation("iswalking");
+        }
+        else if(Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+        {
+            ChangeAnimation("isruning");
+        }
+        else if(rb.linearVelocity.y > 0.1f && stepground == false)
+        {
+            ChangeAnimation("isjumping");
+        }
+        else if(rb.linearVelocity.y < 0.1f && stepground == false)
+        {
+            ChangeAnimation("isfalling");
+        }
+        else if (Input.GetMouseButtonDown(0))
+        {
+            ChangeAnimation("isswordattack");
+        }
+        else
+        {
+            ChangeAnimation("playerstand");
+        }
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //rigidbody2d 의 컴포넌트를 이 오브젝트에서 가져와서 rb(물리엔진)에 저장
@@ -90,21 +136,22 @@ public class chardata : MonoBehaviour
 
     void weaponeswap()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1) && nowweapon != weaponeslot[0] && Time.time >= swaptime + swapspeed && weaponeslot[0] != null) // 1번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
-        {
-            nowweapon = weaponeslot[0]; //현재 무기를 1번 웨폰칸에 있는걸로 바꾸고
-            swaptime = Time.time; //마지막으로 바꾼 시간 갱신
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && nowweapon != weaponeslot[1] && Time.time >= swaptime + swapspeed && weaponeslot[1] != null) // 2번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
-        {
-            nowweapon = weaponeslot[1]; //현재 무기를 2번 웨폰칸에 있는걸로 바꾸고
-            swaptime = Time.time; //마지막으로 바꾼 시간 갱신
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && nowweapon != weaponeslot[2] && Time.time >= swaptime + swapspeed && weaponeslot[2] != null) // 3번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
-        {
-            nowweapon = weaponeslot[2]; //현재 무기를 3번 웨폰칸에 있는걸로 바꾸고
-            swaptime = Time.time; //마지막으로 바꾼 시간 갱신
-        }
+            if (Input.GetKeyDown(KeyCode.Alpha1) && nowweapon != weaponeslot[0] && Time.time >= swaptime + swapspeed && weaponeslot[0] != null) // 1번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
+            {
+                nowweapon = weaponeslot[0]; //현재 무기를 1번 웨폰칸에 있는걸로 바꾸고
+                swaptime = Time.time; //마지막으로 바꾼 시간 갱신
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha2) && nowweapon != weaponeslot[1] && Time.time >= swaptime + swapspeed && weaponeslot[1] != null) // 2번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
+            {
+                nowweapon = weaponeslot[1]; //현재 무기를 2번 웨폰칸에 있는걸로 바꾸고
+                swaptime = Time.time; //마지막으로 바꾼 시간 갱신
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha3) && nowweapon != weaponeslot[2] && Time.time >= swaptime + swapspeed && weaponeslot[2] != null) // 3번키를 눌렀을때 현재 무기가 1번이 아니고 현재 시간(게임 진행중 시간)이 스왑타임(마지막으로 스왑한 시간) + 스왑 쿨타임보다 크고 웨폰 슬롯이 널값으로 비어있지 않을때 작동
+            {
+                nowweapon = weaponeslot[2]; //현재 무기를 3번 웨폰칸에 있는걸로 바꾸고
+                swaptime = Time.time; //마지막으로 바꾼 시간 갱신
+            }
+            
     }
 
     public void leftmove()
@@ -136,18 +183,15 @@ public class chardata : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(-movespeed, rb.linearVelocity.y); // X좌표를 현재 speed만큼 이동하고 y좌표는 그대로(왼쪽 이동)
                 GetComponent<SpriteRenderer>().flipX = true;
-                animator.SetBool("iswalking", true);
             }
             else if (Input.GetKey(KeyCode.D)) //D키를 누르고 있는동안 작동
             {
                 rb.linearVelocity = new Vector2(movespeed, rb.linearVelocity.y); // y좌표를 현재 -speed만큼 이동하고 y좌표는 그대로(오른쪽 이동)
                 GetComponent<SpriteRenderer>().flipX = false;
-                animator.SetBool("iswalking", true);
             }
             else //아무것도 안누르고 있을때
             {
                 rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); //속도값 0으로 변경(미끄러지기 방지)
-                animator.SetBool("iswalking", false);
             }
         }
         
@@ -156,13 +200,10 @@ public class chardata : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
         {
             movespeed = 9;
-            animator.SetBool("isruning", true);
-            animator.SetBool("iswalking", false);
         }
         else
         {
             movespeed = 5;
-            animator.SetBool("isruning", false);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && candash)
@@ -226,7 +267,7 @@ public class chardata : MonoBehaviour
             }
         }
         
-
+        ReturnAnimation();
     }
 }
 
