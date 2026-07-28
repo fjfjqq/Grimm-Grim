@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEditor.PlayerSettings;
@@ -32,12 +33,17 @@ public class chardata : MonoBehaviour
 
     public bool stepground;
 
+    public GameObject Inventory;
+
     public Animator animator;
     public Rigidbody2D rb; //물리엔진 담아놓을 변수 정하기
 
     public Transform groundCheck; //그라운드 체크에 위치값 담는 용도
     public float groundchecksize = 0.2f; //그라운드 체크할 원 크기
     public LayerMask groundcheck; // 그라운드만 감지하는 마스크용
+
+    public Weapon[] allweapon = new Weapon[4];
+    public Weapon[] weaponslot = new Weapon[3];
 
     public void damagesystem()
     {
@@ -62,7 +68,6 @@ public class chardata : MonoBehaviour
         animator.SetBool("isruning", false);
         animator.SetBool("isjumping", false);
         animator.SetBool("isfalling", false);
-        animator.SetBool("isswordattack", false);
         animator.SetBool("playerstand", false);
 
         animator.SetBool(animationname, true);
@@ -80,7 +85,7 @@ public class chardata : MonoBehaviour
         {
             ChangeAnimation("isjumping");
         }
-        else if (rb.linearVelocity.y < 0.1f && stepground == false)
+        else if (rb.linearVelocity.y < -0.1f && stepground == false)
         {
             ChangeAnimation("isfalling");
         }
@@ -92,10 +97,6 @@ public class chardata : MonoBehaviour
         {
             ChangeAnimation("iswalking");
         }
-        else if (Input.GetMouseButtonDown(0))
-        {
-            ChangeAnimation("isswordattack");
-        }
         else
         {
             ChangeAnimation("playerstand");
@@ -105,34 +106,35 @@ public class chardata : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //rigidbody2d 의 컴포넌트를 이 오브젝트에서 가져와서 rb(물리엔진)에 저장
+        animator = GetComponent<Animator>();
 
-        Weapon parrysword = new Weapon(); //
-        parrysword.weaponename = "기본 검"; //무기 이름
-        parrysword.damage = 10f; //무기 데미지
-        parrysword.attackspeed = 1.0f; //무기 공격속도
+        allweapon[0] = new Weapon(); //
+        allweapon[0].weaponename = "기본 검"; //무기 이름 
+        allweapon[0].damage = 10f; //무기 데미지
+        allweapon[0].attackspeed = 1.0f; //무기 공격속도
 
-        Weapon largesword = new Weapon();
-        largesword.weaponename = "대검"; //무기 이름
-        largesword.damage = 20f; //무기 데미지
-        largesword.attackspeed = 1.5f; //무기 공격속도
+        allweapon[1] = new Weapon();
+        allweapon[1].weaponename = "대검"; //무기 이름
+        allweapon[1].damage = 20f; //무기 데미지
+        allweapon[1].attackspeed = 1.5f; //무기 공격속도
 
-        Weapon shortsword = new Weapon();
-        shortsword.weaponename = "단검"; //무기 이름
-        shortsword.damage = 3f; //무기 데미지
-        shortsword.attackspeed = 0.3f; //무기 공격속도
+        allweapon[2] = new Weapon();
+        allweapon[2].weaponename = "단검"; //무기 이름
+        allweapon[2].damage = 3f; //무기 데미지
+        allweapon[2].attackspeed = 0.3f; //무기 공격속도
 
-        Weapon bat = new Weapon();
-        bat.weaponename = "배트"; //무기 이름
-        bat.damage = 12f; //무기 데미지
-        bat.attackspeed = 1.4f; //무기 공격속도
+        allweapon[3] = new Weapon();
+        allweapon[3].weaponename = "배트"; //무기 이름
+        allweapon[3].damage = 12f; //무기 데미지
+        allweapon[3].attackspeed = 1.4f; //무기 공격속도
 
-        weaponeslot[0] = parrysword; //처음에 기본적인 검은 가지고 있으므로 한칸 채워두기
+        weaponeslot[0] = allweapon[0]; //처음에 기본적인 검은 가지고 있으므로 한칸 채워두기
         weaponeslot[1] = null; //나머지는 나중에 얻으니깐 비워두기
         weaponeslot[2] = null; //나머지는 나중에 얻으니깐 비워두기
 
         nowweapon = weaponeslot[0]; //현재 시작 할때 무기는 1번에만 들어가있으므로 정해주고 시작
 
-        animator = GetComponent<Animator>();
+        
     }
 
     void weaponeswap()
@@ -162,6 +164,12 @@ public class chardata : MonoBehaviour
 
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Inventory.SetActive(!Inventory.activeSelf);
+        }
+
         if(nodamage && Time.time > lasthit + nodamagetime)
         {
             nodamage = false; //
@@ -249,7 +257,7 @@ public class chardata : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.6f); //상승속도를 60%로 감소시킴
         }
 
-        if (Input.GetMouseButtonDown(0) && Time.time >= lasttime + nowweapon.attackspeed) //마우스 왼쪽 클릭했을때 현재 시간이 마지막 공격시간이랑 현재무기의 공격시간보다 크면 실행
+        if (Input.GetMouseButtonDown(0) && Time.time >= lasttime + nowweapon.attackspeed && stepground == true) //마우스 왼쪽 클릭했을때 현재 시간이 마지막 공격시간이랑 현재무기의 공격시간보다 크면 실행
         {
             
             lasttime = Time.time; //마지막 공격시간 갱신
@@ -257,6 +265,7 @@ public class chardata : MonoBehaviour
             if(nowweapon == weaponeslot[0]) //현재 무기가 1번 칸일때 이 안에 있는거 실행
             {
                 Debug.Log("1번"); //임의로 들어갈 무기 정보
+                animator.SetTrigger("swordattack");
             }
             else if(nowweapon == weaponeslot[1]) //현재 무기가 2번 칸일때 이 안에 있는거 실행
             {
@@ -272,6 +281,7 @@ public class chardata : MonoBehaviour
     }
 }
 
+[System.Serializable]
 public class Weapon
 {
     public float attackspeed;
