@@ -34,6 +34,7 @@ public class chardata : MonoBehaviour
     public bool stepground;
 
     public GameObject Inventory;
+    public GameObject Escmain;
 
     public Animator animator;
     public Rigidbody2D rb; //물리엔진 담아놓을 변수 정하기
@@ -168,6 +169,11 @@ public class chardata : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             Inventory.SetActive(!Inventory.activeSelf);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Escmain.SetActive(!Escmain.activeSelf);
         }
 
         if(nodamage && Time.time > lasthit + nodamagetime)
