@@ -71,7 +71,7 @@ public class mainuI : MonoBehaviour
 
     public void mainuiload()
     {
-        comebacksmain(Fadein());
+        comebackmain(Fadein());
     }
 
     IEnumerable Fadein()
