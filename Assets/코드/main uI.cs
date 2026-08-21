@@ -65,7 +65,35 @@ public class mainuI : MonoBehaviour
         {
             allbutton[i].gameObject.SetActive(false);
 
-            // saveuiload. // 신호보내기
+            saveuiload.saveuiload(); //세이브 ui에 신호보내기
         }
+    }
+
+    public void mainuiload()
+    {
+        comebacksmain(Fadein());
+    }
+
+    IEnumerable Fadein()
+    {
+        for(int i = 0; i < allbutton.Length; i++)
+        {
+            allbutton[i].gameObject.SetActive(true);
+            allbutton[i].color = new Color(1f, 1f, 1f, 0f);
+        }
+
+        float timecheck = 0f;
+        while(timecheck < 1f)
+        {
+            timecheck += 0.007f;
+            for(int i = 0; i < allbutton.Length; i++)
+            {
+                allbutton[i].color = new Color(1f, 1f, 1f, timecheck);
+            }
+
+            yield return null;
+        }
+
+        fade = false;
     }
 }
