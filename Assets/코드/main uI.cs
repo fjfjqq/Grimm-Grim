@@ -34,11 +34,11 @@ public class mainuI : MonoBehaviour
     {
         if (fade) return;
 
-        if(mainbutton == "start")
+        if (mainbutton == "start")
         {
             StartCoroutine(Fadeout());
         }
-        else if(mainbutton == "exit")
+        else if (mainbutton == "exit")
         {
             Application.Quit();
         }
@@ -49,7 +49,7 @@ public class mainuI : MonoBehaviour
         fade = true;
         float timecheck = 1f;
 
-        while(timecheck > 0f)
+        while (timecheck > 0f)
         {
             timecheck -= 0.007f;
 
@@ -61,7 +61,7 @@ public class mainuI : MonoBehaviour
             yield return null;
         }
 
-        for(int i = 0;i < allbutton.Length;i++)
+        for (int i = 0; i < allbutton.Length; i++)
         {
             allbutton[i].gameObject.SetActive(false);
 
@@ -71,22 +71,24 @@ public class mainuI : MonoBehaviour
 
     public void mainuiload()
     {
-        comebackmain(Fadein());
+        // [수정 1] comebackmain -> StartCoroutine으로 수정
+        StartCoroutine(Fadein());
     }
 
-    IEnumerable Fadein()
+    // [수정 2] IEnumerable -> IEnumerator 오타 수정
+    IEnumerator Fadein()
     {
-        for(int i = 0; i < allbutton.Length; i++)
+        for (int i = 0; i < allbutton.Length; i++)
         {
             allbutton[i].gameObject.SetActive(true);
             allbutton[i].color = new Color(1f, 1f, 1f, 0f);
         }
 
         float timecheck = 0f;
-        while(timecheck < 1f)
+        while (timecheck < 1f)
         {
             timecheck += 0.007f;
-            for(int i = 0; i < allbutton.Length; i++)
+            for (int i = 0; i < allbutton.Length; i++)
             {
                 allbutton[i].color = new Color(1f, 1f, 1f, timecheck);
             }
