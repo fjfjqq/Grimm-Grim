@@ -6,6 +6,7 @@ using UnityEngine.InputSystem.Controls;
 
 public class mainuI : MonoBehaviour
 {
+    [SerializeField] private AudioClip clicksound;
     public saveui saveuiload; //saveui시스템이랑 연결하기
     public string mainbutton;
     public SpriteRenderer[] allbutton;
@@ -32,11 +33,15 @@ public class mainuI : MonoBehaviour
     }
     void OnMouseDown()
     {
+
+        AudioSource.PlayClipAtPoint(clicksound, transform.position);
+
         if (fade) return;
 
         if (mainbutton == "start")
         {
             StartCoroutine(Fadeout());
+           
         }
         else if (mainbutton == "exit")
         {
@@ -64,18 +69,16 @@ public class mainuI : MonoBehaviour
         for (int i = 0; i < allbutton.Length; i++)
         {
             allbutton[i].gameObject.SetActive(false);
-
-            saveuiload.saveuiload(); //세이브 ui에 신호보내기
         }
+
+        saveuiload.saveuiload(); //세이브 ui에 신호보내기
     }
 
     public void mainuiload()
     {
-        // [수정 1] comebackmain -> StartCoroutine으로 수정
+        gameObject.SetActive(true);
         StartCoroutine(Fadein());
     }
-
-    // [수정 2] IEnumerable -> IEnumerator 오타 수정
     IEnumerator Fadein()
     {
         for (int i = 0; i < allbutton.Length; i++)
