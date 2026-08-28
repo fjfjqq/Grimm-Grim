@@ -10,3 +10,10 @@ public class savefile
     public string[] weaponslot;
     public string nowweaponname;
 }
+
+[System.Serializable]
+public class mapsavefile
+{
+    public int mapnumber;
+
+}
