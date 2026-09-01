@@ -445,6 +445,7 @@ RectTransform:
   - {fileID: 860619522}
   - {fileID: 26889324}
   - {fileID: 190608252}
+  - {fileID: 1193806547}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -463,6 +464,7 @@ GameObject:
   - component: {fileID: 386277155}
   - component: {fileID: 386277156}
   - component: {fileID: 386277157}
+  - component: {fileID: 386277158}
   m_Layer: 0
   m_Name: Saveblock-3
   m_TagString: Untagged
@@ -591,6 +593,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.3, y: 3.3}
   m_EdgeRadius: 0
+--- !u!114 &386277158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386277154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13a24cc4f89f6e468d3bd9e01a3f392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewEmptyCSharpScript
+  numberofslot: 0
+  fade: {fileID: 1431514600}
 --- !u!1 &752678233
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +1012,7 @@ GameObject:
   - component: {fileID: 1013124051}
   - component: {fileID: 1013124052}
   - component: {fileID: 1013124053}
+  - component: {fileID: 1013124054}
   m_Layer: 0
   m_Name: Saveblock-2
   m_TagString: Untagged
@@ -1124,6 +1141,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.3, y: 3.3}
   m_EdgeRadius: 0
+--- !u!114 &1013124054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013124050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13a24cc4f89f6e468d3bd9e01a3f392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewEmptyCSharpScript
+  numberofslot: 0
+  fade: {fileID: 1431514600}
 --- !u!1 &1113612896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,6 +1247,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &1193806546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193806547}
+  - component: {fileID: 1193806549}
+  - component: {fileID: 1193806548}
+  m_Layer: 5
+  m_Name: blackout
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1193806547
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193806546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 239952222}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.19, y: 0}
+  m_SizeDelta: {x: 1235.8, y: 583.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1193806548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193806546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 7482667652216324306, guid: 936152b520f06be4c8aa87f2591d7f52, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1193806549
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193806546}
+  m_CullTransparentMesh: 1
 --- !u!1 &1213793708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,7 +1695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38e14cd8eb5c3fa42ad08f2799004edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::mainuI
-  clicksound: {fileID: 8300000, guid: b0d85574872bd9c49ad40e6146718dd4, type: 3}
+  clicksound: {fileID: 8300000, guid: cfa485a7dea56aa4f8fc5cd1b5d47ffc, type: 3}
   saveuiload: {fileID: 2045904684}
   mainbutton: start
   allbutton:
@@ -1762,7 +1868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38e14cd8eb5c3fa42ad08f2799004edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::mainuI
-  clicksound: {fileID: 0}
+  clicksound: {fileID: 8300000, guid: cfa485a7dea56aa4f8fc5cd1b5d47ffc, type: 3}
   saveuiload: {fileID: 0}
   mainbutton: exit
   allbutton: []
@@ -1777,6 +1883,7 @@ GameObject:
   - component: {fileID: 1407858619}
   - component: {fileID: 1407858620}
   - component: {fileID: 1407858621}
+  - component: {fileID: 1407858622}
   m_Layer: 0
   m_Name: Saveblock-1
   m_TagString: Untagged
@@ -1905,6 +2012,66 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.3, y: 3.3}
   m_EdgeRadius: 0
+--- !u!114 &1407858622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407858618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13a24cc4f89f6e468d3bd9e01a3f392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewEmptyCSharpScript
+  numberofslot: 0
+  fade: {fileID: 1431514600}
+--- !u!1 &1431514599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431514601}
+  - component: {fileID: 1431514600}
+  m_Layer: 0
+  m_Name: fademanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1431514600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431514599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe26fae49f4d44a458bc09061e8914b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::sceenblackout
+  fadeout: {fileID: 1193806548}
+  fadespeed: 0.002
+--- !u!4 &1431514601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431514599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.21144, y: 11.51555, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1535724739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,6 +2083,7 @@ GameObject:
   - component: {fileID: 1535724740}
   - component: {fileID: 1535724741}
   - component: {fileID: 1535724742}
+  - component: {fileID: 1535724743}
   m_Layer: 0
   m_Name: Saveblock-4
   m_TagString: Untagged
@@ -2044,6 +2212,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.3, y: 3.3}
   m_EdgeRadius: 0
+--- !u!114 &1535724743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535724739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13a24cc4f89f6e468d3bd9e01a3f392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewEmptyCSharpScript
+  numberofslot: 0
+  fade: {fileID: 1431514600}
 --- !u!1 &1651425132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2209,7 +2391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38e14cd8eb5c3fa42ad08f2799004edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::mainuI
-  clicksound: {fileID: 0}
+  clicksound: {fileID: 8300000, guid: cfa485a7dea56aa4f8fc5cd1b5d47ffc, type: 3}
   saveuiload: {fileID: 0}
   mainbutton: option
   allbutton: []
@@ -7117,3 +7299,4 @@ SceneRoots:
   - {fileID: 800430165}
   - {fileID: 2045904683}
   - {fileID: 1213793710}
+  - {fileID: 1431514601}
