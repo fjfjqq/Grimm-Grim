@@ -5,7 +5,7 @@ public class saveload : MonoBehaviour
 {
     [SerializeField] private chardata player; //chardata에 있는 플레이어 데이터 가져오는거
 
-    public void Gamesave(int mapnumber) //맵 숫자 받아서 로드할 위치 
+    public void Gamesave(int chapter,int mapnumber) //맵 숫자 받아서 로드할 위치 + 챕터까지
     {
         int slot = PlayerPrefs.GetInt("slotnumber", 1); //타이틀에서 골랐던 슬롯 번호 없으면 1 반환
 
@@ -95,15 +95,21 @@ public class saveload : MonoBehaviour
         return null; // 안넣었더니 null값일 경우 무한반복하면서 에러
     }
 
-    public static mapsavefile Loadmap(int slot)
+    public static mapsavefile Loadmap(int slot) //오브젝트 없이 몇번 슬롯을 읽을건지 확인후 맵 데이터 반환
     {
-        string mappath = Path.Combine(Application.persistentDataPath, "savemap" + slot + ".json");
-        if (File.Exists(mappath))
+        string mappath = Path.Combine(Application.persistentDataPath, "savemap" + slot + ".json"); //파일 읽는 경로 만들어주기
+        if (File.Exists(mappath)) //파일 있는지 확인
         {
-            string json = File.ReadAllText(mappath);
-            return JsonUtility.FromJson<mapsavefile>(json);
+            string json = File.ReadAllText(mappath); //파일 문자열로 읽기
+            return JsonUtility.FromJson<mapsavefile>(json);// json텍스트를 mapsavefile로 변환후 반환
         }
 
-        return null;
+        return null; //파일없으면 널값 반환하고 새게임
+    }
+
+    public static bool Saveoutput(int slot) //이 슬롯에 세이브파일 있는지 없는지 확인
+    {
+        string savepath = Path.Combine(Application.persistentDataPath, "save" + slot + ".json"); //경로 반환
+        return File.Exists(savepath); //있으면 true 없으면 false반환하기
     }
 }
