@@ -2,7 +2,6 @@ using JetBrains.Annotations;
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
 public class chardata : MonoBehaviour
 {
     public Weapon[] weaponeslot = new Weapon[3]; //배열 만들기, 무기의 위치를 따로 정해두지 않았고 여러개의 무기를 임의로 담을 칸인 weapones slot 배열을 만듬
@@ -24,6 +23,8 @@ public class chardata : MonoBehaviour
 
     public int maxhp = 6;
     public int nowhp = 6;
+
+    public int nowmoney = 0;
     bool nodamage = false;
     public float lasthit = -99f;
     public float nodamagetime = 0.8f;
@@ -44,8 +45,6 @@ public class chardata : MonoBehaviour
     public LayerMask groundcheck; // 그라운드만 감지하는 마스크용
 
     public Weapon[] allweapon = new Weapon[4];
-    public Weapon[] weaponslot = new Weapon[3];
-
     public void damagesystem()
     {
         if (nodamage)
@@ -134,6 +133,12 @@ public class chardata : MonoBehaviour
         weaponeslot[2] = null; //나머지는 나중에 얻으니깐 비워두기
 
         nowweapon = weaponeslot[0]; //현재 시작 할때 무기는 1번에만 들어가있으므로 정해주고 시작
+
+        saveload charload = FindAnyObjectByType<saveload>(); // 씬에서 세이브 로드 붙은거 오브젝트 내가 만든 차데이터에 담아주기
+        if (charload != null) //찾았는지 체크
+        {
+            charload.Gameload(); //찾았음 게임로드에서 호출해서 복원
+        }
 
         
     }
