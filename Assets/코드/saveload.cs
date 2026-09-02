@@ -7,7 +7,7 @@ public class saveload : MonoBehaviour
 
     public void Gamesave(int chapter,int mapnumber) //맵 숫자 받아서 로드할 위치 + 챕터까지
     {
-        int slot = PlayerPrefs.GetInt("slotnumber", 1); //타이틀에서 골랐던 슬롯 번호 없으면 1 반환
+        int slot = PlayerPrefs.GetInt("loadslot", 1); //이거 슬롯넘버가 아니라 로드슬롯으로 해야하는데 잘못잡음 
 
         savefile data = new savefile(); //쉽게 생각해서 저장을 할 상자 만들어두기 여기에 플레이어 데이터를 집어넣어서 박스채로 운반
         data.maxhp = player.maxhp;
@@ -29,7 +29,17 @@ public class saveload : MonoBehaviour
             }
         }
 
+        if(player.nowweapon != null)
+        {
+            data.nowweaponname = player.nowweapon.weaponename; //현재 무기 이름을 저장하는줄을 넣어야했는데 안넣어서 저장못하고 복구 못해서 오류 난거 바꿈
+        }
+        else
+        {
+            data.nowweaponname = ""; 
+        }
+
         mapsavefile mapdata = new mapsavefile();
+        mapdata.chapter = chapter; //맵을 두개로 나누면서 챕터도 따로 저장해야해서 추가
         mapdata.mapnumber = mapnumber;
 
         string json = JsonUtility.ToJson(data); //플레이어 데이터를 json(파일)로 변환[아직 이해를 못한쪽이라서 더 파봐야함]
