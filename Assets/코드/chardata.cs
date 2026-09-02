@@ -170,6 +170,11 @@ public class chardata : MonoBehaviour
 
     void Update()
     {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("playerswordattack"))
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            return;
+        }
 
         if (Input.GetKeyDown(KeyCode.I))
         {
