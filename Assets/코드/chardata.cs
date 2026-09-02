@@ -20,6 +20,7 @@ public class chardata : MonoBehaviour
     public float movespeed = 5; //이동 스피드
     bool dashing = false; //대쉬중 상태
     bool candash = false; //대쉬가 가능한상태인가
+    bool isattack = false; //공격중에 멈추기 위한 장치
 
     public int maxhp = 6;
     public int nowhp = 6;
@@ -50,6 +51,11 @@ public class chardata : MonoBehaviour
         if (nodamage)
         {
             return;
+        }
+
+        if (isattack)
+        {
+            return; //공격중이면 애니메이션 못건들이게
         }
 
         nowhp = nowhp - 1;
@@ -101,6 +107,11 @@ public class chardata : MonoBehaviour
         {
             ChangeAnimation("playerstand");
         }
+    }
+
+    public void Attackend()
+    {
+        isattack = false; //애니메이션에 트리거로 직접 받아올 예정
     }
 
     void Start()
@@ -170,10 +181,10 @@ public class chardata : MonoBehaviour
 
     void Update()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("playerswordattack"))
+        if (isattack == true)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-            return;
+            return; //공격중엔 아래 전부다 스킵
         }
 
         if (Input.GetKeyDown(KeyCode.I))
@@ -277,6 +288,7 @@ public class chardata : MonoBehaviour
         {
             
             lasttime = Time.time; //마지막 공격시간 갱신
+            isattack = true; //공격중이다라는 신호보내기
 
             if(nowweapon == weaponeslot[0]) //현재 무기가 1번 칸일때 이 안에 있는거 실행
             {
@@ -306,4 +318,5 @@ public class Weapon
     public string weaponename;
     
 }
+
 
