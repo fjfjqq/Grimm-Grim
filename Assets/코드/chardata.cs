@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using System;
 using Unity.VisualScripting;
+using UnityEditorInternal;
 using UnityEngine;
 public class chardata : MonoBehaviour
 {
@@ -108,12 +109,6 @@ public class chardata : MonoBehaviour
             ChangeAnimation("playerstand");
         }
     }
-
-    public void Attackend()
-    {
-        isattack = false; //애니메이션에 트리거로 직접 받아올 예정
-    }
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //rigidbody2d 의 컴포넌트를 이 오브젝트에서 가져와서 rb(물리엔진)에 저장
@@ -183,8 +178,17 @@ public class chardata : MonoBehaviour
     {
         if (isattack == true)
         {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-            return; //공격중엔 아래 전부다 스킵
+            AnimatorStateInfo animationcheck = animator.GetCurrentAnimatorStateInfo(0); //애니메이트 스테트 타입 변수 만들고 애니메이션 정보 담기
+            Debug.Log(animationcheck.IsName("playerswordattack") + " / " + animationcheck.normalizedTime);
+            if (animationcheck.IsName("swordattack") && animationcheck.normalizedTime >= 1f) //지금 재생중인 애니메이션이 공격 애니메이션이 아닐때와 애니메이션이 끝까지 재생됬을때
+            {
+                isattack = false;
+            }
+            else
+            {
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+                return;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.I))
