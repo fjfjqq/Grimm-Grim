@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 37428604214e2fc4b947822d755f0e84
+guid: 6917fa25be45eba4981021fe3b6d2f25
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 956502511006798353
-    second: caracter1-attack1Sheet_0
+      213: 2658745379205433617
+    second: caracter1-shortswordSheet_0
   - first:
-      213: 7810483827938838729
-    second: caracter1-attack1Sheet_1
+      213: -8251808252516709106
+    second: caracter1-shortswordSheet_1
   - first:
-      213: 4994132694315859113
-    second: caracter1-attack1Sheet_2
+      213: -264968267626269358
+    second: caracter1-shortswordSheet_2
   - first:
-      213: 1668523928574809141
-    second: caracter1-attack1Sheet_3
-  - first:
-      213: -3976931123952103769
-    second: caracter1-attack1Sheet_4
-  - first:
-      213: 8462974781474524017
-    second: caracter1-attack1Sheet_5
+      213: 1763359894374514432
+    second: caracter1-shortswordSheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,35 +109,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caracter1-attack1Sheet_0
+      name: caracter1-shortswordSheet_0
       rect:
         serializedVersion: 2
-        x: 44
+        x: 289
         y: 0
-        width: 62
+        width: 177
+        height: 141
+      alignment: 9
+      pivot: {x: 0.20878747, y: 0.49319884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11940c3f5d2c5e420800000000000000
+      internalID: 2658745379205433617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-shortswordSheet_1
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 82
         height: 136
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 112545b47fd264d00800000000000000
-      internalID: 956502511006798353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caracter1-attack1Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 0
-        width: 77
-        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +146,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c84a38e8a9646c60800000000000000
-      internalID: 7810483827938838729
+      spriteID: e0dca124d10bb7d80800000000000000
+      internalID: -8251808252516709106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caracter1-attack1Sheet_2
+      name: caracter1-shortswordSheet_2
       rect:
         serializedVersion: 2
-        x: 609
+        x: 1439
         y: 0
-        width: 77
-        height: 126
+        width: 177
+        height: 141
+      alignment: 9
+      pivot: {x: 0.19467387, y: 0.5090897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255b263b3c4a25cf0800000000000000
+      internalID: -264968267626269358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-shortswordSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 0
+        width: 82
+        height: 136
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,74 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ac7cd5b939be4540800000000000000
-      internalID: 4994132694315859113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caracter1-attack1Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 854
-        y: 0
-        width: 285
-        height: 121
-      alignment: 9
-      pivot: {x: 0.3347742, y: 0.5123472}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 534d0fd3ca9c72710800000000000000
-      internalID: 1668523928574809141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caracter1-attack1Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 1142
-        y: 0
-        width: 154
-        height: 121
-      alignment: 9
-      pivot: {x: 0.5621615, y: 0.48921147}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7aec3a4a63a1fc8c0800000000000000
-      internalID: -3976931123952103769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caracter1-attack1Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1449
-        y: 0
-        width: 132
-        height: 121
-      alignment: 9
-      pivot: {x: 0.5230741, y: 0.4928076}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17bc0e899b6827570800000000000000
-      internalID: 8462974781474524017
+      spriteID: 00ffc533b76b87810800000000000000
+      internalID: 1763359894374514432
       vertices: []
       indices: 
       edges: []
@@ -250,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 74bd65a0ea2ef4c46bd7736eb43fa6a5
+    spriteID: 8c6143df24155ac4d84d69e84b241b17
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      caracter1-attack1Sheet_0: 956502511006798353
-      caracter1-attack1Sheet_1: 7810483827938838729
-      caracter1-attack1Sheet_2: 4994132694315859113
-      caracter1-attack1Sheet_3: 1668523928574809141
-      caracter1-attack1Sheet_4: -3976931123952103769
-      caracter1-attack1Sheet_5: 8462974781474524017
+      caracter1-shortswordSheet_0: 2658745379205433617
+      caracter1-shortswordSheet_1: -8251808252516709106
+      caracter1-shortswordSheet_2: -264968267626269358
+      caracter1-shortswordSheet_3: 1763359894374514432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

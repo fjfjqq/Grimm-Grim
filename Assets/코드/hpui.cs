@@ -7,6 +7,9 @@ public class hpui : MonoBehaviour
     public Transform hpvessel;
     public chardata user;
 
+    public Sprite havehp;
+    public Sprite nohp;
+
     public Image[] heartsystem;
     void Start()
     {
@@ -26,11 +29,11 @@ public class hpui : MonoBehaviour
         {
             if(i < user.nowhp)
             {
-                heartsystem[i].color = Color.red;
+                heartsystem[i].sprite = havehp; //스프라이트 교체하는걸로 변경
             }
             else
             {
-                heartsystem[i].color = Color.white;
+                heartsystem[i].sprite = nohp;
             }
         }
     }

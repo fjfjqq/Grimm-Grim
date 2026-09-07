@@ -180,7 +180,7 @@ public class chardata : MonoBehaviour
         {
             AnimatorStateInfo animationcheck = animator.GetCurrentAnimatorStateInfo(0); //애니메이트 스테트 타입 변수 만들고 애니메이션 정보 담기
             Debug.Log(animationcheck.IsName("playerswordattack") + " / " + animationcheck.normalizedTime);
-            if (animationcheck.IsName("swordattack") && animationcheck.normalizedTime >= 1f) //지금 재생중인 애니메이션이 공격 애니메이션이 아닐때와 애니메이션이 끝까지 재생됬을때
+            if (animationcheck.IsName("playerswordattack") && animationcheck.normalizedTime >= 1f) //지금 재생중인 애니메이션이 공격 애니메이션이 아닐때와 애니메이션이 끝까지 재생됬을때
             {
                 isattack = false;
             }
@@ -294,7 +294,13 @@ public class chardata : MonoBehaviour
             lasttime = Time.time; //마지막 공격시간 갱신
             isattack = true; //공격중이다라는 신호보내기
 
-            if(nowweapon == weaponeslot[0]) //현재 무기가 1번 칸일때 이 안에 있는거 실행
+            animator.SetBool("iswalking", false);
+            animator.SetBool("isruning", false);
+            animator.SetBool("isjumping", false);
+            animator.SetBool("isfalling", false);
+            animator.SetBool("playerstand", false);
+
+            if (nowweapon == weaponeslot[0]) //현재 무기가 1번 칸일때 이 안에 있는거 실행
             {
                 Debug.Log("1번"); //임의로 들어갈 무기 정보
                 animator.SetTrigger("swordattack");
@@ -308,8 +314,11 @@ public class chardata : MonoBehaviour
                 Debug.Log("3번"); //임의로 들어갈 무기 정보
             }
         }
-        
-        ReturnAnimation();
+
+        if (isattack == false)
+        {
+            ReturnAnimation();
+        }
     }
 }
 

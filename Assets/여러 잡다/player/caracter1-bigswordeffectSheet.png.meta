@@ -1,0 +1,1005 @@
+fileFormatVersion: 2
+guid: d459c4b34957e7946a02ae23dfae7dfe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8257764176615121500
+    second: caracter1-bigswordeffectSheet_0
+  - first:
+      213: -4072443716061334660
+    second: caracter1-bigswordeffectSheet_1
+  - first:
+      213: -5469120956227978419
+    second: caracter1-bigswordeffectSheet_2
+  - first:
+      213: 5614955374884235246
+    second: caracter1-bigswordeffectSheet_3
+  - first:
+      213: -2919037477621244854
+    second: caracter1-bigswordeffectSheet_4
+  - first:
+      213: 7685757123901478697
+    second: caracter1-bigswordeffectSheet_5
+  - first:
+      213: 7756724785967601512
+    second: caracter1-bigswordeffectSheet_6
+  - first:
+      213: -7979974149703580030
+    second: caracter1-bigswordeffectSheet_7
+  - first:
+      213: 8764946108625782365
+    second: caracter1-bigswordeffectSheet_8
+  - first:
+      213: 7790648786467227162
+    second: caracter1-bigswordeffectSheet_9
+  - first:
+      213: -2707864424698058102
+    second: caracter1-bigswordeffectSheet_10
+  - first:
+      213: -6623407415254655080
+    second: caracter1-bigswordeffectSheet_11
+  - first:
+      213: 7524722903030525903
+    second: caracter1-bigswordeffectSheet_12
+  - first:
+      213: 5612461268337294559
+    second: caracter1-bigswordeffectSheet_13
+  - first:
+      213: 4777863696677314862
+    second: caracter1-bigswordeffectSheet_14
+  - first:
+      213: -3761000273207491408
+    second: caracter1-bigswordeffectSheet_15
+  - first:
+      213: 42290874548883535
+    second: caracter1-bigswordeffectSheet_16
+  - first:
+      213: 7535862350787704618
+    second: caracter1-bigswordeffectSheet_17
+  - first:
+      213: -6519524832687025343
+    second: caracter1-bigswordeffectSheet_18
+  - first:
+      213: 2849108098312477960
+    second: caracter1-bigswordeffectSheet_19
+  - first:
+      213: 2289373872186264923
+    second: caracter1-bigswordeffectSheet_20
+  - first:
+      213: 2553553011300261425
+    second: caracter1-bigswordeffectSheet_21
+  - first:
+      213: 7573518873972409859
+    second: caracter1-bigswordeffectSheet_22
+  - first:
+      213: 6931771520678584221
+    second: caracter1-bigswordeffectSheet_23
+  - first:
+      213: -3850995736039948694
+    second: caracter1-bigswordeffectSheet_24
+  - first:
+      213: 43319042939431167
+    second: caracter1-bigswordeffectSheet_25
+  - first:
+      213: -1041448114508429150
+    second: caracter1-bigswordeffectSheet_26
+  - first:
+      213: -4335489066614232234
+    second: caracter1-bigswordeffectSheet_27
+  - first:
+      213: 8906063517358966851
+    second: caracter1-bigswordeffectSheet_28
+  - first:
+      213: -3745389330339671287
+    second: caracter1-bigswordeffectSheet_29
+  - first:
+      213: 6045379727376061648
+    second: caracter1-bigswordeffectSheet_30
+  - first:
+      213: -8878928689342442821
+    second: caracter1-bigswordeffectSheet_31
+  - first:
+      213: 3345173768893628496
+    second: caracter1-bigswordeffectSheet_32
+  - first:
+      213: 3416886604063126840
+    second: caracter1-bigswordeffectSheet_33
+  - first:
+      213: -5042259680620331988
+    second: caracter1-bigswordeffectSheet_34
+  - first:
+      213: -8672683672952678298
+    second: caracter1-bigswordeffectSheet_35
+  - first:
+      213: 1683256072666852813
+    second: caracter1-bigswordeffectSheet_36
+  - first:
+      213: 1746151279604952267
+    second: caracter1-bigswordeffectSheet_37
+  - first:
+      213: -3028087319996693435
+    second: caracter1-bigswordeffectSheet_38
+  - first:
+      213: 5216978823177979930
+    second: caracter1-bigswordeffectSheet_39
+  - first:
+      213: 8730098784190056341
+    second: caracter1-bigswordeffectSheet_40
+  - first:
+      213: 7661376850082055174
+    second: caracter1-bigswordeffectSheet_41
+  - first:
+      213: -8919439155591929843
+    second: caracter1-bigswordeffectSheet_42
+  - first:
+      213: -8099889514888612273
+    second: caracter1-bigswordeffectSheet_43
+  - first:
+      213: 1301629009656825457
+    second: caracter1-bigswordeffectSheet_44
+  - first:
+      213: -69294223486796698
+    second: caracter1-bigswordeffectSheet_45
+  - first:
+      213: 8624472219400118776
+    second: caracter1-bigswordeffectSheet_46
+  - first:
+      213: -6980396137947631430
+    second: caracter1-bigswordeffectSheet_47
+  - first:
+      213: 3110340307741370032
+    second: caracter1-bigswordeffectSheet_48
+  - first:
+      213: 2691886578819443647
+    second: caracter1-bigswordeffectSheet_49
+  - first:
+      213: 7757675217633969820
+    second: caracter1-bigswordeffectSheet_50
+  - first:
+      213: -2287575508535081593
+    second: caracter1-bigswordeffectSheet_51
+  - first:
+      213: 1351670074552607699
+    second: caracter1-bigswordeffectSheet_52
+  - first:
+      213: -2563285556890372896
+    second: caracter1-bigswordeffectSheet_53
+  - first:
+      213: 7245432501936074212
+    second: caracter1-bigswordeffectSheet_54
+  - first:
+      213: 4125340372567099376
+    second: caracter1-bigswordeffectSheet_55
+  - first:
+      213: -1819320878050831965
+    second: caracter1-bigswordeffectSheet_56
+  - first:
+      213: 416152228814384703
+    second: caracter1-bigswordeffectSheet_57
+  - first:
+      213: -3453854327703595473
+    second: caracter1-bigswordeffectSheet_58
+  - first:
+      213: 8359460935147425082
+    second: caracter1-bigswordeffectSheet_59
+  - first:
+      213: 1003548106487957887
+    second: caracter1-bigswordeffectSheet_60
+  - first:
+      213: 2567730305406797921
+    second: caracter1-bigswordeffectSheet_61
+  - first:
+      213: -5183252341716189591
+    second: caracter1-bigswordeffectSheet_62
+  - first:
+      213: 2487230530633072734
+    second: caracter1-bigswordeffectSheet_63
+  - first:
+      213: -2233383380305118850
+    second: caracter1-bigswordeffectSheet_64
+  - first:
+      213: 2616743287985141120
+    second: caracter1-bigswordeffectSheet_65
+  - first:
+      213: -687729904854551183
+    second: caracter1-bigswordeffectSheet_66
+  - first:
+      213: 4942763268631841534
+    second: caracter1-bigswordeffectSheet_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_0
+      rect:
+        serializedVersion: 2
+        x: 7724
+        y: 0
+        width: 315
+        height: 355
+      alignment: 9
+      pivot: {x: 0.14948227, y: 0.18975756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4add8ed9b37866d80800000000000000
+      internalID: -8257764176615121500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_1
+      rect:
+        serializedVersion: 2
+        x: 8214
+        y: 0
+        width: 399
+        height: 355
+      alignment: 9
+      pivot: {x: 0.31835693, y: 0.18899265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7374685406cb77c0800000000000000
+      internalID: -4072443716061334660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_5
+      rect:
+        serializedVersion: 2
+        x: 11229
+        y: 0
+        width: 223
+        height: 355
+      alignment: 9
+      pivot: {x: 0.20789833, y: 0.17619087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9275310226b49aa60800000000000000
+      internalID: 7685757123901478697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_10
+      rect:
+        serializedVersion: 2
+        x: 8790
+        y: 0
+        width: 406
+        height: 355
+      alignment: 9
+      pivot: {x: 0.3129979, y: 0.17710428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a64f117abbb6ad0800000000000000
+      internalID: -2707864424698058102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_14
+      rect:
+        serializedVersion: 2
+        x: 10594
+        y: 0
+        width: 330
+        height: 246
+      alignment: 9
+      pivot: {x: 0.16921757, y: 0.22442113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21afa9c7b16e4240800000000000000
+      internalID: 4777863696677314862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_15
+      rect:
+        serializedVersion: 2
+        x: 11795
+        y: 0
+        width: 236
+        height: 281
+      alignment: 9
+      pivot: {x: 0.17296329, y: 0.23312226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4025b9d2e3ecbc0800000000000000
+      internalID: -3761000273207491408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 161
+        height: 131
+      alignment: 9
+      pivot: {x: 0.7670166, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d9a9e58b01a8720800000000000000
+      internalID: 2849108098312477960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_20
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 162
+        height: 126
+      alignment: 9
+      pivot: {x: 0.74521893, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d09b9386d75cf10800000000000000
+      internalID: 2289373872186264923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 0
+        width: 132
+        height: 126
+      alignment: 9
+      pivot: {x: 0.6711278, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e5ea93fea007320800000000000000
+      internalID: 2553553011300261425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 0
+        width: 107
+        height: 127
+      alignment: 9
+      pivot: {x: 0.50000226, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30687d62a4b8a1960800000000000000
+      internalID: 7573518873972409859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 1
+        width: 367
+        height: 116
+      alignment: 9
+      pivot: {x: 0.19709, y: 0.48645467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f5732d879923060800000000000000
+      internalID: 6931771520678584221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 0
+        width: 402
+        height: 111
+      alignment: 9
+      pivot: {x: 0.27574408, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e7bc118c38e8ac0800000000000000
+      internalID: -3850995736039948694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_25
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 0
+        width: 162
+        height: 111
+      alignment: 9
+      pivot: {x: 0.7745301, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff82a66a076e99000800000000000000
+      internalID: 43319042939431167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_26
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 0
+        width: 117
+        height: 111
+      alignment: 9
+      pivot: {x: 0.63784975, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a889ba25780c81f0800000000000000
+      internalID: -1041448114508429150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_27
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 0
+        width: 117
+        height: 111
+      alignment: 9
+      pivot: {x: 0.643947, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b6ed01aaf35d3c0800000000000000
+      internalID: -4335489066614232234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_28
+      rect:
+        serializedVersion: 2
+        x: 5333
+        y: 0
+        width: 102
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5928213, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3484f3b2591b89b70800000000000000
+      internalID: 8906063517358966851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_29
+      rect:
+        serializedVersion: 2
+        x: 5914
+        y: 0
+        width: 97
+        height: 111
+      alignment: 9
+      pivot: {x: 0.55856353, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903d09b7f34b50cc0800000000000000
+      internalID: -3745389330339671287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_30
+      rect:
+        serializedVersion: 2
+        x: 6494
+        y: 0
+        width: 102
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5142415, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4199e05d085e350800000000000000
+      internalID: 6045379727376061648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_31
+      rect:
+        serializedVersion: 2
+        x: 7144
+        y: 0
+        width: 242
+        height: 126
+      alignment: 9
+      pivot: {x: 0.22084638, y: 0.4864547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb218bd4665b7c480800000000000000
+      internalID: -8878928689342442821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_36
+      rect:
+        serializedVersion: 2
+        x: 9364
+        y: 0
+        width: 409
+        height: 355
+      alignment: 9
+      pivot: {x: 0.33074906, y: 0.16871738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcda355da702c5710800000000000000
+      internalID: 1683256072666852813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_39
+      rect:
+        serializedVersion: 2
+        x: 9929
+        y: 0
+        width: 415
+        height: 175
+      alignment: 9
+      pivot: {x: 0.35830668, y: 0.36642808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a184244599e666840800000000000000
+      internalID: 5216978823177979930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_42
+      rect:
+        serializedVersion: 2
+        x: 12369
+        y: 0
+        width: 236
+        height: 131
+      alignment: 9
+      pivot: {x: 0.18069303, y: 0.4949538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00ab3f5859c73480800000000000000
+      internalID: -8919439155591929843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_43
+      rect:
+        serializedVersion: 2
+        x: 12944
+        y: 0
+        width: 233
+        height: 101
+      alignment: 9
+      pivot: {x: 0.19025366, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f463729b669679f80800000000000000
+      internalID: -8099889514888612273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_44
+      rect:
+        serializedVersion: 2
+        x: 14109
+        y: 0
+        width: 197
+        height: 106
+      alignment: 9
+      pivot: {x: 0.13365026, y: 0.48883843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17640fd10b0501210800000000000000
+      internalID: 1301629009656825457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_45
+      rect:
+        serializedVersion: 2
+        x: 14684
+        y: 0
+        width: 122
+        height: 136
+      alignment: 9
+      pivot: {x: 0.17997566, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c35185541d90ff0800000000000000
+      internalID: -69294223486796698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_46
+      rect:
+        serializedVersion: 2
+        x: 15244
+        y: 0
+        width: 62
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1a1940ac740b770800000000000000
+      internalID: 8624472219400118776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_47
+      rect:
+        serializedVersion: 2
+        x: 15804
+        y: 0
+        width: 62
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab07f1e32b6a02f90800000000000000
+      internalID: -6980396137947631430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-bigswordeffectSheet_49
+      rect:
+        serializedVersion: 2
+        x: 13524
+        y: 0
+        width: 227
+        height: 91
+      alignment: 9
+      pivot: {x: 0.16643292, y: 0.5260032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbac2ac4908b5520800000000000000
+      internalID: 2691886578819443647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ad1ae2962d4806446b964903ce7cc47c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      caracter1-bigswordeffectSheet_0: -8257764176615121500
+      caracter1-bigswordeffectSheet_1: -4072443716061334660
+      caracter1-bigswordeffectSheet_10: -2707864424698058102
+      caracter1-bigswordeffectSheet_11: -6623407415254655080
+      caracter1-bigswordeffectSheet_12: 7524722903030525903
+      caracter1-bigswordeffectSheet_13: 5612461268337294559
+      caracter1-bigswordeffectSheet_14: 4777863696677314862
+      caracter1-bigswordeffectSheet_15: -3761000273207491408
+      caracter1-bigswordeffectSheet_16: 42290874548883535
+      caracter1-bigswordeffectSheet_17: 7535862350787704618
+      caracter1-bigswordeffectSheet_18: -6519524832687025343
+      caracter1-bigswordeffectSheet_19: 2849108098312477960
+      caracter1-bigswordeffectSheet_2: -5469120956227978419
+      caracter1-bigswordeffectSheet_20: 2289373872186264923
+      caracter1-bigswordeffectSheet_21: 2553553011300261425
+      caracter1-bigswordeffectSheet_22: 7573518873972409859
+      caracter1-bigswordeffectSheet_23: 6931771520678584221
+      caracter1-bigswordeffectSheet_24: -3850995736039948694
+      caracter1-bigswordeffectSheet_25: 43319042939431167
+      caracter1-bigswordeffectSheet_26: -1041448114508429150
+      caracter1-bigswordeffectSheet_27: -4335489066614232234
+      caracter1-bigswordeffectSheet_28: 8906063517358966851
+      caracter1-bigswordeffectSheet_29: -3745389330339671287
+      caracter1-bigswordeffectSheet_3: 5614955374884235246
+      caracter1-bigswordeffectSheet_30: 6045379727376061648
+      caracter1-bigswordeffectSheet_31: -8878928689342442821
+      caracter1-bigswordeffectSheet_32: 3345173768893628496
+      caracter1-bigswordeffectSheet_33: 3416886604063126840
+      caracter1-bigswordeffectSheet_34: -5042259680620331988
+      caracter1-bigswordeffectSheet_35: -8672683672952678298
+      caracter1-bigswordeffectSheet_36: 1683256072666852813
+      caracter1-bigswordeffectSheet_37: 1746151279604952267
+      caracter1-bigswordeffectSheet_38: -3028087319996693435
+      caracter1-bigswordeffectSheet_39: 5216978823177979930
+      caracter1-bigswordeffectSheet_4: -2919037477621244854
+      caracter1-bigswordeffectSheet_40: 8730098784190056341
+      caracter1-bigswordeffectSheet_41: 7661376850082055174
+      caracter1-bigswordeffectSheet_42: -8919439155591929843
+      caracter1-bigswordeffectSheet_43: -8099889514888612273
+      caracter1-bigswordeffectSheet_44: 1301629009656825457
+      caracter1-bigswordeffectSheet_45: -69294223486796698
+      caracter1-bigswordeffectSheet_46: 8624472219400118776
+      caracter1-bigswordeffectSheet_47: -6980396137947631430
+      caracter1-bigswordeffectSheet_48: 3110340307741370032
+      caracter1-bigswordeffectSheet_49: 2691886578819443647
+      caracter1-bigswordeffectSheet_5: 7685757123901478697
+      caracter1-bigswordeffectSheet_50: 7757675217633969820
+      caracter1-bigswordeffectSheet_51: -2287575508535081593
+      caracter1-bigswordeffectSheet_52: 1351670074552607699
+      caracter1-bigswordeffectSheet_53: -2563285556890372896
+      caracter1-bigswordeffectSheet_54: 7245432501936074212
+      caracter1-bigswordeffectSheet_55: 4125340372567099376
+      caracter1-bigswordeffectSheet_56: -1819320878050831965
+      caracter1-bigswordeffectSheet_57: 416152228814384703
+      caracter1-bigswordeffectSheet_58: -3453854327703595473
+      caracter1-bigswordeffectSheet_59: 8359460935147425082
+      caracter1-bigswordeffectSheet_6: 7756724785967601512
+      caracter1-bigswordeffectSheet_60: 1003548106487957887
+      caracter1-bigswordeffectSheet_61: 2567730305406797921
+      caracter1-bigswordeffectSheet_62: -5183252341716189591
+      caracter1-bigswordeffectSheet_63: 2487230530633072734
+      caracter1-bigswordeffectSheet_64: -2233383380305118850
+      caracter1-bigswordeffectSheet_65: 2616743287985141120
+      caracter1-bigswordeffectSheet_66: -687729904854551183
+      caracter1-bigswordeffectSheet_67: 4942763268631841534
+      caracter1-bigswordeffectSheet_7: -7979974149703580030
+      caracter1-bigswordeffectSheet_8: 8764946108625782365
+      caracter1-bigswordeffectSheet_9: 7790648786467227162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
