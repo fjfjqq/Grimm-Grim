@@ -47,6 +47,12 @@ public class chardata : MonoBehaviour
     public LayerMask groundcheck; // 그라운드만 감지하는 마스크용
 
     public Weapon[] allweapon = new Weapon[4];
+
+    public GameObject swordhitbox;
+    public GameObject bigswordcombo1;
+    public GameObject bigswordacombo2;
+    public GameObject bigswordacombo3;
+    public GameObject shortswordhitbox;
     public void damagesystem()
     {
         if (nodamage)
