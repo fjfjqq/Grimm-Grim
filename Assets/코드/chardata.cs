@@ -1,7 +1,4 @@
-using JetBrains.Annotations;
 using System;
-using Unity.VisualScripting;
-using UnityEditorInternal;
 using UnityEngine;
 public class chardata : MonoBehaviour
 {
@@ -50,9 +47,16 @@ public class chardata : MonoBehaviour
 
     public GameObject swordhitbox;
     public GameObject bigswordcombo1;
-    public GameObject bigswordacombo2;
-    public GameObject bigswordacombo3;
+    public GameObject bigswordcombo2;
+    public GameObject bigswordcombo3;
     public GameObject shortswordhitbox;
+
+    private int combocount = 0;
+
+    private bool combowait = false;
+    private float combowaittime = 0f;
+    private float combocombo = 0.3f; //입력대기 시간
+
     public void damagesystem()
     {
         if (nodamage)
@@ -146,6 +150,12 @@ public class chardata : MonoBehaviour
 
         nowweapon = weaponeslot[0]; //현재 시작 할때 무기는 1번에만 들어가있으므로 정해주고 시작
 
+        allweapon[0].hitbox = new GameObject[] { swordhitbox }; //start에다가 웨폰이랑 연결
+        allweapon[1].hitbox = new GameObject[] { bigswordcombo1, bigswordcombo2, bigswordcombo3 };
+        allweapon[2].hitbox = new GameObject[] { shortswordhitbox };
+
+
+
         saveload charload = FindAnyObjectByType<saveload>(); // 씬에서 세이브 로드 붙은거 오브젝트 내가 만든 차데이터에 담아주기
         if (charload != null) //찾았는지 체크
         {
@@ -184,11 +194,43 @@ public class chardata : MonoBehaviour
     {
         if (isattack == true)
         {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+
             AnimatorStateInfo animationcheck = animator.GetCurrentAnimatorStateInfo(0); //애니메이트 스테트 타입 변수 만들고 애니메이션 정보 담기
-            Debug.Log(animationcheck.IsName("playerswordattack") + " / " + animationcheck.normalizedTime);
-            if (animationcheck.IsName("playerswordattack") && animationcheck.normalizedTime >= 1f) //지금 재생중인 애니메이션이 공격 애니메이션이 아닐때와 애니메이션이 끝까지 재생됬을때
+
+            if(combowait == true)
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    combowait = false;
+                    animator.speed = 1;
+
+                    if(combocount == 1)
+                    {
+                        combocount = 2;
+                        animator.SetTrigger("bigswordcombo2");
+                    }
+                    else if(combocount == 2)
+                    {
+                        combocount = 0;
+                        animator.SetTrigger("bigswordcombo3");   
+                    } 
+                }
+                else if(Time.time > combowaittime + combocombo || Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+                {
+                    combowait = false;
+                    combocount = 0;
+                    animator.speed = 1;
+                    isattack = false;
+                }
+
+                return;
+            }
+
+            if (animationcheck.IsTag("Attack") && animationcheck.normalizedTime >= 1f) //하나하나 넣으면 오래걸리니깐 애니메이션에서 태그로 묶었다ㅣ
             {
                 isattack = false;
+                combocount = 0;
             }
             else
             {
@@ -300,30 +342,59 @@ public class chardata : MonoBehaviour
             lasttime = Time.time; //마지막 공격시간 갱신
             isattack = true; //공격중이다라는 신호보내기
 
-            animator.SetBool("iswalking", false);
-            animator.SetBool("isruning", false);
-            animator.SetBool("isjumping", false);
-            animator.SetBool("isfalling", false);
-            animator.SetBool("playerstand", false);
+            ChangeAnimation("playerstand"); // 애니메이션 하나로 통일
 
-            if (nowweapon == weaponeslot[0]) //현재 무기가 1번 칸일때 이 안에 있는거 실행
+            if(nowweapon.weaponename == "기본 검")
             {
-                Debug.Log("1번"); //임의로 들어갈 무기 정보
+                combocount = 0;
                 animator.SetTrigger("swordattack");
             }
-            else if(nowweapon == weaponeslot[1]) //현재 무기가 2번 칸일때 이 안에 있는거 실행
+            else if(nowweapon.weaponename == "대검")
             {
-                Debug.Log("2번"); //임의으로 들어갈 무기 정보
+                combocount = 1;
+                animator.SetTrigger("bigswordcombo1");
             }
-            else if(nowweapon == weaponeslot[2]) //현재 무기가 3번 칸일때 이 안에 있는거 실행
+            else if(nowweapon.weaponename == "단검")
             {
-                Debug.Log("3번"); //임의로 들어갈 무기 정보
+                combocount = 0;
+                animator.SetTrigger("shortswordattack");
+            }
+            else if(nowweapon.weaponename == "배트")
+            {
+                combocount = 0;
+                animator.SetTrigger("batattack");
             }
         }
 
         if (isattack == false)
         {
             ReturnAnimation();
+        }
+    }
+
+    public void Hitboxon(int i)
+    {
+        if(nowweapon != null && nowweapon.hitbox != null && i < nowweapon.hitbox.Length)
+        {
+            nowweapon.hitbox[i].SetActive(true);
+        }
+    }
+
+    public void Hitboxoff(int i)
+    {
+        if (nowweapon != null && nowweapon.hitbox != null && i < nowweapon.hitbox.Length)
+        {
+            nowweapon.hitbox[i].SetActive(false);
+        }
+    }
+
+    public void Combocheck()
+    {
+        if(combocount < 3) //콤보 계산기
+        {
+            combowait = true;
+            combowaittime = Time.time;
+            animator.speed = 0;
         }
     }
 }
@@ -335,6 +406,7 @@ public class Weapon
     public float damage;
     public float range;
     public string weaponename;
+    public GameObject[] hitbox;
     
 }
 
