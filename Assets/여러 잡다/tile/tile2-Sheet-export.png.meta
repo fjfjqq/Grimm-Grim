@@ -105,7 +105,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
+        width: 159
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -169,9 +169,9 @@ TextureImporter:
       name: tile2-Sheet-export_3
       rect:
         serializedVersion: 2
-        x: 480
+        x: 481
         y: 0
-        width: 160
+        width: 159
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
