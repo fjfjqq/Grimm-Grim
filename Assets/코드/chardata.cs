@@ -342,9 +342,13 @@ public class chardata : MonoBehaviour
             lasttime = Time.time; //마지막 공격시간 갱신
             isattack = true; //공격중이다라는 신호보내기
 
-            ChangeAnimation("playerstand"); // 애니메이션 하나로 통일
+            animator.SetBool("iswalking", false);
+            animator.SetBool("isruning", false);
+            animator.SetBool("isjumping", false);
+            animator.SetBool("isfalling", false);
+            animator.SetBool("playerstand", false); // 안돼서 원점 복귀
 
-            if(nowweapon.weaponename == "기본 검")
+            if (nowweapon.weaponename == "기본 검")
             {
                 combocount = 0;
                 animator.SetTrigger("swordattack");
