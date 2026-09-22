@@ -270,12 +270,12 @@ public class chardata : MonoBehaviour
             if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
             {
                 rb.linearVelocity = new Vector2(-movespeed, rb.linearVelocity.y); // X좌표를 현재 speed만큼 이동하고 y좌표는 그대로(왼쪽 이동)
-                GetComponent<SpriteRenderer>().flipX = true;
+                transform.localScale = new Vector3(-1.4f, 1.35f, 1);
             }
             else if (Input.GetKey(KeyCode.D)) //D키를 누르고 있는동안 작동
             {
                 rb.linearVelocity = new Vector2(movespeed, rb.linearVelocity.y); // y좌표를 현재 -speed만큼 이동하고 y좌표는 그대로(오른쪽 이동)
-                GetComponent<SpriteRenderer>().flipX = false;
+                transform.localScale = new Vector3(1.4f, 1.35f, 1);
             }
             else //아무것도 안누르고 있을때
             {
@@ -380,15 +380,8 @@ public class chardata : MonoBehaviour
     {
         if(nowweapon != null && nowweapon.hitbox != null && i < nowweapon.hitbox.Length)
         {
-            nowweapon.hitbox[i].SetActive(true);
-        }
-    }
+            nowweapon.hitbox[i].GetComponent<attackhitbox>().Attack(); //현재 무기의 히트박스를 실행
 
-    public void Hitboxoff(int i)
-    {
-        if (nowweapon != null && nowweapon.hitbox != null && i < nowweapon.hitbox.Length)
-        {
-            nowweapon.hitbox[i].SetActive(false);
         }
     }
 
