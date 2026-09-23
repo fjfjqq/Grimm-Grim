@@ -57,7 +57,7 @@ public class chardata : MonoBehaviour
     private float combowaittime = 0f;
     private float combocombo = 0.3f; //입력대기 시간
 
-    public void damagesystem()
+    public void damagesystem(Vector2 ene)
     {
         if (nodamage)
         {
@@ -73,7 +73,13 @@ public class chardata : MonoBehaviour
         nodamage = true;
         lasthit = Time.time;
 
-        Vector2 knock = ((Vector2)transform.position - ene).normalized;
+        ChangeAnimation("playerstand");
+        animator.SetTrigger("playerhit");
+
+        knockback = ture;
+        knockbacktime = Time.time;
+
+        float knockbackx = transform.transform.position.x > ene.x ? 1f : -1f; // 플레이어와 적의 x값의 위치를 비교해서 넉백 방향을 정해주는것
 
         if (nowhp <= 0)
         {
