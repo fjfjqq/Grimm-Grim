@@ -73,6 +73,8 @@ public class chardata : MonoBehaviour
         nodamage = true;
         lasthit = Time.time;
 
+        Vector2 knock = ((Vector2)transform.position - ene).normalized;
+
         if (nowhp <= 0)
         {
             Debug.Log("죽음");
@@ -128,16 +130,19 @@ public class chardata : MonoBehaviour
         allweapon[0].weaponename = "기본 검"; //무기 이름 
         allweapon[0].damage = 10f; //무기 데미지
         allweapon[0].attackspeed = 1.0f; //무기 공격속도
+        allweapon[0].knockback = 7;
 
         allweapon[1] = new Weapon();
         allweapon[1].weaponename = "대검"; //무기 이름
         allweapon[1].damage = 20f; //무기 데미지
         allweapon[1].attackspeed = 1.5f; //무기 공격속도
+        allweapon[1].knockback = 12;
 
         allweapon[2] = new Weapon();
         allweapon[2].weaponename = "단검"; //무기 이름
         allweapon[2].damage = 3f; //무기 데미지
         allweapon[2].attackspeed = 0.3f; //무기 공격속도
+        allweapon[2].knockback = 3;
 
         allweapon[3] = new Weapon();
         allweapon[3].weaponename = "배트"; //무기 이름
@@ -403,6 +408,7 @@ public class Weapon
     public float damage;
     public float range;
     public string weaponename;
+    public float knockback;
     public GameObject[] hitbox;
     
 }
