@@ -28,6 +28,11 @@ public class flychase : MonoBehaviour
             return;
         }
 
+        if (defalut.knockback == true)
+        {
+            return;
+        }
+
         checkplayer = false;
 
         Collider2D found = Physics2D.OverlapCircle(transform.position, chaserange, Player); // 현재 들어간 enemy를 기준으로 추격범위만큼의 원을 만들고 그 안에 있는 플레이어 콜라이더를 찾고 만약에 플레이어가 있다면 값을 없으면 null값을 반환 
@@ -57,6 +62,15 @@ public class flychase : MonoBehaviour
         if (chaseplayer == true && checkplayer == true)
         {
             rb.linearVelocity = check * movespeed;
+
+            if(check.x > 0)
+            {
+                transform.localScale = new Vector3(-1.065f, 0.841192f, 1f);
+            }
+            else if (check.x < 0)
+            {
+                transform.localScale = new Vector3(1.065f, 0.841192f, 1f);
+            }
         }
         else
         {
@@ -70,18 +84,6 @@ public class flychase : MonoBehaviour
         if (checkplayer)
         {
             chaseplayer = true;
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            chardata player = collision.gameObject.GetComponent<chardata>();
-            if(player != null)
-            {
-                player.damagesystem();
-            }
         }
     }
 }

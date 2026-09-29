@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 216c5841b8ded444888717cd20df4fb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7914123091887639003
+    second: streetlight-cyberpunk-Sheet_0
+  - first:
+      213: 1397024457203837390
+    second: streetlight-cyberpunk-Sheet_1
+  - first:
+      213: 5358255297760652154
+    second: streetlight-cyberpunk-Sheet_2
+  - first:
+      213: 8224532208912560595
+    second: streetlight-cyberpunk-Sheet_3
+  - first:
+      213: 2789814604277947939
+    second: streetlight-cyberpunk-Sheet_4
+  - first:
+      213: -3140571498626566862
+    second: streetlight-cyberpunk-Sheet_5
+  - first:
+      213: 5743533836882817034
+    second: streetlight-cyberpunk-Sheet_6
+  - first:
+      213: -4068758107050801089
+    second: streetlight-cyberpunk-Sheet_7
+  - first:
+      213: -794658394486990623
+    second: streetlight-cyberpunk-Sheet_8
+  - first:
+      213: -8416197061621146976
+    second: streetlight-cyberpunk-Sheet_9
+  - first:
+      213: -1658493353703431652
+    second: streetlight-cyberpunk-Sheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526325f8af26b2290800000000000000
+      internalID: -7914123091887639003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9ea22975a336310800000000000000
+      internalID: 1397024457203837390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7be0e6ddc85c5a40800000000000000
+      internalID: 5358255297760652154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1fdf3f778632270800000000000000
+      internalID: 8224532208912560595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e1f2df99967b620800000000000000
+      internalID: 2789814604277947939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235b5a88cd27a64d0800000000000000
+      internalID: -3140571498626566862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0036d6189125bf40800000000000000
+      internalID: 5743533836882817034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f380f301f0ed887c0800000000000000
+      internalID: -4068758107050801089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e812d6866ec8f4f0800000000000000
+      internalID: -794658394486990623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa92660d59a33b80800000000000000
+      internalID: -8416197061621146976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight-cyberpunk-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 0
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c122926f419dbf8e0800000000000000
+      internalID: -1658493353703431652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      streetlight-cyberpunk-Sheet_0: -7914123091887639003
+      streetlight-cyberpunk-Sheet_1: 1397024457203837390
+      streetlight-cyberpunk-Sheet_10: -1658493353703431652
+      streetlight-cyberpunk-Sheet_2: 5358255297760652154
+      streetlight-cyberpunk-Sheet_3: 8224532208912560595
+      streetlight-cyberpunk-Sheet_4: 2789814604277947939
+      streetlight-cyberpunk-Sheet_5: -3140571498626566862
+      streetlight-cyberpunk-Sheet_6: 5743533836882817034
+      streetlight-cyberpunk-Sheet_7: -4068758107050801089
+      streetlight-cyberpunk-Sheet_8: -794658394486990623
+      streetlight-cyberpunk-Sheet_9: -8416197061621146976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

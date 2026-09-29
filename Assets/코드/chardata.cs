@@ -57,6 +57,10 @@ public class chardata : MonoBehaviour
     private float combowaittime = 0f;
     private float combocombo = 0.3f; //입력대기 시간
 
+    private bool knockback = false;
+    private float knockbacktime = 0f;
+    public float knockbacktimer = 0.3f;
+
     public void damagesystem(Vector2 ene)
     {
         if (nodamage)
@@ -73,13 +77,14 @@ public class chardata : MonoBehaviour
         nodamage = true;
         lasthit = Time.time;
 
-        ChangeAnimation("playerstand");
+        ChangeAnimation("playerknockback");
         animator.SetTrigger("playerhit");
 
-        knockback = ture;
+        knockback = true;
         knockbacktime = Time.time;
 
         float knockbackx = transform.transform.position.x > ene.x ? 1f : -1f; // 플레이어와 적의 x값의 위치를 비교해서 넉백 방향을 정해주는것
+        rb.linearVelocity = new Vector2(knockbackx * 8f, 6f);
 
         if (nowhp <= 0)
         {
@@ -173,6 +178,28 @@ public class chardata : MonoBehaviour
             charload.Gameload(); //찾았음 게임로드에서 호출해서 복원
         }
 
+        if(playersavesystem.nowhp != -1)
+        {
+            nowhp = playersavesystem.nowhp;
+            maxhp = playersavesystem.maxhp;
+            nowmoney = playersavesystem.nowmoney;
+
+            if(playersavesystem.weaponslotname != null)
+            {
+                for(int i = 0; i < playersavesystem.weaponslotname.Length; i++)
+                {
+                    if (playersavesystem.weaponslotname[i] != "")
+                    {
+                        weaponeslot[i] = Weaponloadout(playersavesystem.weaponslotname[i]);
+                    }
+                    else
+                    {
+                        weaponeslot[i] = null;
+                    }
+                }
+            }
+        }
+
         
     }
 
@@ -203,6 +230,15 @@ public class chardata : MonoBehaviour
 
     void Update()
     {
+        if(knockback == true)
+        {
+            if (Time.time > knockbacktime + knockbacktimer)
+            {
+                knockback = false;
+            }
+            return;
+        }
+
         if (isattack == true)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
@@ -405,10 +441,22 @@ public class chardata : MonoBehaviour
             animator.speed = 0;
         }
     }
+
+    private Weapon Weaponloadout(string name)
+    {
+        for(int i = 0; i < allweapon.Length; i++)
+        {
+            if (allweapon[i] != null && allweapon[i].weaponename == name)
+            {
+                return allweapon[i];
+            }
+        }
+        return null;
+    }
 }
 
 [System.Serializable]
-public class Weapon
+public class Weapon 
 {
     public float attackspeed;
     public float damage;
@@ -418,5 +466,6 @@ public class Weapon
     public GameObject[] hitbox;
     
 }
+
 
 

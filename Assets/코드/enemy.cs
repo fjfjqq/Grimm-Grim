@@ -12,7 +12,18 @@ public class enemy : MonoBehaviour
     public Animator animator;
     public SpriteRenderer render;
     public Collider2D collider;
+
+    private bool knockbackstop;
+    private float knockbackstoptime = 0f;
+    public float knockbackcooltime = 0.5f;
     private bool fading = false;
+
+    public bool knockback = false;
+    private float knockbacktime = 0f;
+    private float dotheknockback = 0.3f;
+
+    private Vector2 lasthit = Vector2.zero;
+    private float lastpower = 0f;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,8 +35,22 @@ public class enemy : MonoBehaviour
 
     void Update()
     {
-        if(dead == true)
+        if (dead == true)
         {
+            return;
+        }
+
+        if(knockbackstop == true && Time.time > knockbackcooltime + knockbackstoptime) //넉백 쿨타임
+        {
+            knockbackstop = false;
+        }
+
+        if (knockback)
+        {
+            if(Time.time > knockbacktime + dotheknockback)
+            {
+                knockback = false;
+            }
             return;
         }
 
@@ -40,12 +65,14 @@ public class enemy : MonoBehaviour
     {
         dead = true;
 
-        rb.linearVelocity = Vector2.zero;
-        rb.simulated = false;
-        collider.enabled = false;
+        rb.gravityScale = 3f;
+
+        rb.linearVelocity = new Vector2(lasthit.x * lastpower, 8f);
 
         animator.SetBool("nomal", false);
         animator.SetTrigger("dead");
+
+        Invoke("Startfade", 0.5f); //0.5초후에 실행
     }
 
     public void Startfade()
@@ -76,7 +103,40 @@ public class enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (dead == true)
+        {
+            return;
+        }
 
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            chardata player = collision.gameObject.GetComponent<chardata>();
+            if (player != null)
+            {
+                player.damagesystem(transform.position); //여기서 좌표 보내고 
+            }
+        }
+    }
+
+    public void kncokback(Vector2 which, float power)
+    {
+
+        if (knockbackstop == true)
+        {
+            return;
+        }
+
+        knockback = true;
+        knockbacktime = Time.time;
+        knockbackstop = true;
+        knockbackstoptime = Time.time;
+        rb.linearVelocity = which * power; //현재 위치 * 무기 파워  
+        lasthit = which;
+        lastpower = power;
+    }
 
 }
 
