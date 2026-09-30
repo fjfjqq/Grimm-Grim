@@ -4,20 +4,20 @@ using TMPro;
 
 public class npc : MonoBehaviour
 {
-    private GameObject shop;
-    private GameObject talkui;
-    private GameObject selectui;
-    private GameObject shoui;
-    private GameObject questui;
+    [SerializeField] private GameObject shop;
+    [SerializeField] private GameObject talkui;
+    [SerializeField] private GameObject selectui;
+    [SerializeField] GameObject shoui;
+    [SerializeField] GameObject questui;
     [SerializeField] private string[] talklist;
 
-    private chardata player;
-    private bool playerinrange = false;
-    private bool talking = false;
-    private int talknumber = 0;
+    [SerializeField] private chardata player;
+    [SerializeField] private bool playerinrange = false;
+    [SerializeField] bool talking = false;
+    [SerializeField] int talknumber = 0;
 
-    private shopitem[] shopitme;
-    private publicshop publicshop;
+    [SerializeField] private shopitem[] shopitme;
+    [SerializeField] publicshop publicshop;
 
 
     void Update()

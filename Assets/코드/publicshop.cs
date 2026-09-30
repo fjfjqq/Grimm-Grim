@@ -13,7 +13,7 @@ public class publicshop : MonoBehaviour
 
     public void Open(shopitem[] items)
     {
-        gameObject.SetActive(false);
+        gameObject.SetActive(true);
         itemitemlist = items;
 
         foreach(Transform button in itemnpc)
