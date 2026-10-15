@@ -13,6 +13,7 @@ public class publicshop : MonoBehaviour
 
     public void Open(shopitem[] items)
     {
+        Debug.Log("Open 호출됨, 품목 수: " + items.Length);
         gameObject.SetActive(true);
         itemitemlist = items;
 
@@ -35,13 +36,34 @@ public class publicshop : MonoBehaviour
 
     public void Buy(int i)
     {
-        if(player.nowmoney >= itemitemlist[i].price)
+        if(player.nowmoney < itemitemlist[i].price)
         {
-            player.nowmoney -= itemitemlist[i].price;
+            return;
         }
-        else
-        {
 
+        Weapon buyweapon = player.Weaponloadout(itemitemlist[i].itemname);
+
+        if(buyweapon == null)
+        {
+            return;
+        }
+
+        for(int ii = 0; ii < player.weaponeslot.Length; ii++)
+        {
+            if (player.weaponeslot[ii] == buyweapon)
+            {
+                return;
+            }
+        }
+
+        for(int ii = 0; ii < player.weaponeslot.Length; ii++)
+        {
+            if(player.weaponeslot[ii] == buyweapon)
+            {
+                player.weaponeslot[ii] = buyweapon;
+                player.nowmoney -= itemitemlist[i].price;
+                return;
+            }
         }
     }
 

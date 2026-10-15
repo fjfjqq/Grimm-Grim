@@ -61,6 +61,8 @@ public class chardata : MonoBehaviour
     private float knockbacktime = 0f;
     public float knockbacktimer = 0.3f;
 
+    public bool dead = false;
+
     public void damagesystem(Vector2 ene)
     {
         if (nodamage)
@@ -88,7 +90,7 @@ public class chardata : MonoBehaviour
 
         if (nowhp <= 0)
         {
-            Debug.Log("죽음");
+            dead = true;
         }
     }
 
@@ -230,12 +232,34 @@ public class chardata : MonoBehaviour
 
     void Update()
     {
+
         if(knockback == true)
         {
             if (Time.time > knockbacktime + knockbacktimer)
             {
                 knockback = false;
+
+                if(dead == true)
+                {
+                    isattack = false;
+                    combowait = false;
+                    animator.speed = 1f;
+                    knockback = false;
+
+                    animator.SetBool("iswalking", false);
+                    animator.SetBool("isruning", false);
+                    animator.SetBool("isjumping", false);
+                    animator.SetBool("isfalling", false);
+                    animator.SetBool("playerstand", false);
+
+                    animator.SetTrigger("dead");
+                }
             }
+            return;
+        }
+
+        if (dead == true)
+        {
             return;
         }
 
@@ -442,7 +466,18 @@ public class chardata : MonoBehaviour
         }
     }
 
-    private Weapon Weaponloadout(string name)
+    public void Gameover()
+    {
+        int slotcheck = PlayerPrefs.GetInt("loadslot", 0);
+        mapsavefile mapdata = saveload.Loadmap(slotcheck);
+
+        if (mapdata != null)
+        {
+            string sceenload = "Chapter" + mapdata.chapter + "-" + mapdata.mapnumber;
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceenload);
+        }
+    }
+    public Weapon Weaponloadout(string name)
     {
         for(int i = 0; i < allweapon.Length; i++)
         {

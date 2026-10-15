@@ -24,6 +24,7 @@ public class enemy : MonoBehaviour
 
     private Vector2 lasthit = Vector2.zero;
     private float lastpower = 0f;
+    public int money = 10;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -64,6 +65,12 @@ public class enemy : MonoBehaviour
     void Dead()
     {
         dead = true;
+
+        chardata player = FindAnyObjectByType<chardata>();
+        if(player != null)
+        {
+            player.nowmoney += money;
+        }
 
         rb.gravityScale = 3f;
 

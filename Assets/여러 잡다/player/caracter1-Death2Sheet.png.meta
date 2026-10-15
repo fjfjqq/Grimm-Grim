@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: b9a300f3d6aa5154da464d6c178f46fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8941198067918140627
+    second: caracter1-Death2Sheet_0
+  - first:
+      213: -6204206715836865813
+    second: caracter1-Death2Sheet_1
+  - first:
+      213: -7048230497173388884
+    second: caracter1-Death2Sheet_2
+  - first:
+      213: -3792671731258217718
+    second: caracter1-Death2Sheet_3
+  - first:
+      213: 1440952391054497148
+    second: caracter1-Death2Sheet_4
+  - first:
+      213: 3088095757135174005
+    second: caracter1-Death2Sheet_5
+  - first:
+      213: -7688763436235178680
+    second: caracter1-Death2Sheet_6
+  - first:
+      213: -6411773766523277140
+    second: caracter1-Death2Sheet_7
+  - first:
+      213: 3118210119306515121
+    second: caracter1-Death2Sheet_8
+  - first:
+      213: 1129600671676778797
+    second: caracter1-Death2Sheet_9
+  - first:
+      213: 2789106471149192592
+    second: caracter1-Death2Sheet_10
+  - first:
+      213: -411493832172020556
+    second: caracter1-Death2Sheet_11
+  - first:
+      213: 2809035416111870568
+    second: caracter1-Death2Sheet_12
+  - first:
+      213: 4899951193231030595
+    second: caracter1-Death2Sheet_13
+  - first:
+      213: 489276498272652099
+    second: caracter1-Death2Sheet_14
+  - first:
+      213: 716158155127021885
+    second: caracter1-Death2Sheet_15
+  - first:
+      213: -2980516620227531751
+    second: caracter1-Death2Sheet_16
+  - first:
+      213: -2395925518904242568
+    second: caracter1-Death2Sheet_17
+  - first:
+      213: -7522194692639754936
+    second: caracter1-Death2Sheet_18
+  - first:
+      213: 7644472386966149550
+    second: caracter1-Death2Sheet_19
+  - first:
+      213: 1080673583323638709
+    second: caracter1-Death2Sheet_20
+  - first:
+      213: -4521672257379439099
+    second: caracter1-Death2Sheet_21
+  - first:
+      213: -8372694108051276031
+    second: caracter1-Death2Sheet_22
+  - first:
+      213: 5339574813190835349
+    second: caracter1-Death2Sheet_23
+  - first:
+      213: -2687642371467494564
+    second: caracter1-Death2Sheet_24
+  - first:
+      213: -2878914943837327122
+    second: caracter1-Death2Sheet_25
+  - first:
+      213: -6958306009583292985
+    second: caracter1-Death2Sheet_26
+  - first:
+      213: -1638957177073524095
+    second: caracter1-Death2Sheet_27
+  - first:
+      213: 9108704320583904453
+    second: caracter1-Death2Sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caracter1-Death2Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 77
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d47ba03544851c70800000000000000
+      internalID: 8941198067918140627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-Death2Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 0
+        width: 102
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2637dfcda36e9a0800000000000000
+      internalID: -6204206715836865813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-Death2Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 0
+        width: 107
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1c7e8b4b7af2e90800000000000000
+      internalID: -7048230497173388884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-Death2Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 0
+        width: 147
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29465573d52daf00800000000000000
+      internalID: 1129600671676778797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-Death2Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 0
+        width: 135
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cccd7900bf91a40800000000000000
+      internalID: 5339574813190835349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-Death2Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 0
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182a47a81214149e0800000000000000
+      internalID: -1638957177073524095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-Death2Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 0
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66079ac80835ec49bef06a7e7a01592
+      internalID: -3792671731258217718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f5192b4de1713eb469b560d597975889
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      caracter1-Death2Sheet_0: 8941198067918140627
+      caracter1-Death2Sheet_1: -6204206715836865813
+      caracter1-Death2Sheet_10: 2789106471149192592
+      caracter1-Death2Sheet_11: -411493832172020556
+      caracter1-Death2Sheet_12: 2809035416111870568
+      caracter1-Death2Sheet_13: 4899951193231030595
+      caracter1-Death2Sheet_14: 489276498272652099
+      caracter1-Death2Sheet_15: 716158155127021885
+      caracter1-Death2Sheet_16: -2980516620227531751
+      caracter1-Death2Sheet_17: -2395925518904242568
+      caracter1-Death2Sheet_18: -7522194692639754936
+      caracter1-Death2Sheet_19: 7644472386966149550
+      caracter1-Death2Sheet_2: -7048230497173388884
+      caracter1-Death2Sheet_20: 1080673583323638709
+      caracter1-Death2Sheet_21: -4521672257379439099
+      caracter1-Death2Sheet_22: -8372694108051276031
+      caracter1-Death2Sheet_23: 5339574813190835349
+      caracter1-Death2Sheet_24: -2687642371467494564
+      caracter1-Death2Sheet_25: -2878914943837327122
+      caracter1-Death2Sheet_26: -6958306009583292985
+      caracter1-Death2Sheet_27: -1638957177073524095
+      caracter1-Death2Sheet_28: 9108704320583904453
+      caracter1-Death2Sheet_29: -301669132
+      caracter1-Death2Sheet_3: -3792671731258217718
+      caracter1-Death2Sheet_4: 1440952391054497148
+      caracter1-Death2Sheet_5: 3088095757135174005
+      caracter1-Death2Sheet_6: -7688763436235178680
+      caracter1-Death2Sheet_7: -6411773766523277140
+      caracter1-Death2Sheet_8: 3118210119306515121
+      caracter1-Death2Sheet_9: 1129600671676778797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

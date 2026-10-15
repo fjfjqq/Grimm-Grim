@@ -588,7 +588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5270978004604668360, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
       propertyPath: warppoint
-      value: ext-1-3
+      value: exit-1-3
       objectReference: {fileID: 0}
     - target: {fileID: 8228525208051617772, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
       propertyPath: player
@@ -983,11 +983,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4379183847769236655, guid: a83eec5eab15c9c4fa0f598c1fc63d7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.471108
+      value: 13.407147
       objectReference: {fileID: 0}
     - target: {fileID: 4379183847769236655, guid: a83eec5eab15c9c4fa0f598c1fc63d7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.36899
+      value: 0.369
       objectReference: {fileID: 0}
     - target: {fileID: 4379183847769236655, guid: a83eec5eab15c9c4fa0f598c1fc63d7b, type: 3}
       propertyPath: m_LocalPosition.z

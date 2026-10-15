@@ -26,7 +26,7 @@ public class npc : MonoBehaviour
         {
             Starttalk();
         }
-        else
+        else if(talking == true && Input.GetKeyDown(KeyCode.W))
         {
             nexttalk();
         }
