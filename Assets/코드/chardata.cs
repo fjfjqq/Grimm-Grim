@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 public class chardata : MonoBehaviour
 {
+    [System.NonSerialized]
     public Weapon[] weaponeslot = new Weapon[3]; //배열 만들기, 무기의 위치를 따로 정해두지 않았고 여러개의 무기를 임의로 담을 칸인 weapones slot 배열을 만듬
     public Weapon nowweapon; //현재 무기 위에 배열에서 무기를 교체할거기 때문에 지금 무기 번호(1, 2, 3)를 확인 해주는것
 
@@ -137,6 +138,8 @@ public class chardata : MonoBehaviour
     }
     void Start()
     {
+        weaponeslot = new Weapon[3];
+
         rb = GetComponent<Rigidbody2D>(); //rigidbody2d 의 컴포넌트를 이 오브젝트에서 가져와서 rb(물리엔진)에 저장
         animator = GetComponent<Animator>();
 
