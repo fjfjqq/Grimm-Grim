@@ -18,7 +18,7 @@ public class sceenblackout : MonoBehaviour
         StartCoroutine(Fadeoutandload(sceenname));
     }
 
-    public IEnumerator Fadein()
+    IEnumerator Fadein()
     {
         float endthefade = 1f;
         while (endthefade > 0f)

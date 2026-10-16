@@ -13,7 +13,6 @@ public class publicshop : MonoBehaviour
 
     public void Open(shopitem[] items)
     {
-        Debug.Log("Open 호출됨, 품목 수: " + items.Length);
         gameObject.SetActive(true);
         itemitemlist = items;
 
@@ -38,6 +37,7 @@ public class publicshop : MonoBehaviour
     {
         if(player.nowmoney < itemitemlist[i].price)
         {
+            Debug.Log("돈 x");
             return;
         }
 
@@ -45,6 +45,7 @@ public class publicshop : MonoBehaviour
 
         if(buyweapon == null)
         {
+            Debug.Log("무기 x");
             return;
         }
 
@@ -52,19 +53,27 @@ public class publicshop : MonoBehaviour
         {
             if (player.weaponeslot[ii] == buyweapon)
             {
+                Debug.Log("보유중");
                 return;
             }
         }
 
         for(int ii = 0; ii < player.weaponeslot.Length; ii++)
         {
-            if(player.weaponeslot[ii] == buyweapon)
+            if (player.weaponeslot[ii] == null)
             {
                 player.weaponeslot[ii] = buyweapon;
                 player.nowmoney -= itemitemlist[i].price;
+
+                Debug.Log("구매 완");
+                Debug.Log("현재돈" + player.nowmoney);
+
+
                 return;
             }
         }
+
+        Debug.Log("빈 무기 슬롯이 없자너");
     }
 
     public void Close()

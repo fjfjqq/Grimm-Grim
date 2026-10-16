@@ -1296,7 +1296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7322311655422591829, guid: c42331508563faa4882aaae430775699, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5096,7 +5096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -12.3142, y: 10.8883}
+  m_AnchoredPosition: {x: -12.314209, y: 10.888306}
   m_SizeDelta: {x: -999.1349, y: -168.7694}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183177001
@@ -5940,11 +5940,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4379183847769236655, guid: a83eec5eab15c9c4fa0f598c1fc63d7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.874687
+      value: -7.441039
       objectReference: {fileID: 0}
     - target: {fileID: 4379183847769236655, guid: a83eec5eab15c9c4fa0f598c1fc63d7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.13439
+      value: -0.13419999
       objectReference: {fileID: 0}
     - target: {fileID: 4379183847769236655, guid: a83eec5eab15c9c4fa0f598c1fc63d7b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5999,6 +5999,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: warp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5270978004604668360, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
+      propertyPath: fade
+      value: 
+      objectReference: {fileID: 304724492}
+    - target: {fileID: 5270978004604668360, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
+      propertyPath: stagename
+      value: Chapter1-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228525208051617772, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2124425643}
+    - target: {fileID: 8228525208051617772, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
+      propertyPath: warppoint.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228525208051617772, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
+      propertyPath: 'warppoint.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1216766331}
+    - target: {fileID: 8228525208051617772, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
+      propertyPath: 'warppoint.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1610696056}
     - target: {fileID: 8350997679057578676, guid: 5fa41e3bf1ae397499d75c230f479e41, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.789171

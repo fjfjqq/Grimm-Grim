@@ -43,6 +43,7 @@ public class chardata : MonoBehaviour
     public float groundchecksize = 0.2f; //그라운드 체크할 원 크기
     public LayerMask groundcheck; // 그라운드만 감지하는 마스크용
 
+    [System.NonSerialized]
     public Weapon[] allweapon = new Weapon[4];
 
     public GameObject swordhitbox;
@@ -279,12 +280,12 @@ public class chardata : MonoBehaviour
                     if(combocount == 1)
                     {
                         combocount = 2;
-                        animator.SetTrigger("bigswordcombo2");
+                        animator.SetTrigger("bigswordattack2");
                     }
                     else if(combocount == 2)
                     {
                         combocount = 0;
-                        animator.SetTrigger("bigswordcombo3");   
+                        animator.SetTrigger("bigswordattack3");   
                     } 
                 }
                 else if(Time.time > combowaittime + combocombo || Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
@@ -427,7 +428,7 @@ public class chardata : MonoBehaviour
             else if(nowweapon.weaponename == "대검")
             {
                 combocount = 1;
-                animator.SetTrigger("bigswordcombo1");
+                animator.SetTrigger("bigswordattack1");
             }
             else if(nowweapon.weaponename == "단검")
             {
