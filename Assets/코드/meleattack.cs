@@ -67,18 +67,27 @@ public class meleattack : MonoBehaviour
         else
         {
             Nomal();
-        }
-
-        void Nomal()
+        }      
+    }
+    void Nomal()
+    {
+        if (Vector2.Distance(transform.position, turntarget.position) < 0.5f)
         {
-
+            if(turntarget == turnpoint2)
+            {
+                turntarget = turnpoint1;
+            }
+            else
+            {
+                turntarget = turnpoint2;
+            }
         }
+    }
 
-        void Startattack()
-        {
-
-        }
-        
+    void Startattack()
+    {
+        isattack = true;
+        rb.linearVelocity = Vector2.zero;
     }
 
 
