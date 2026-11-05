@@ -143,6 +143,7 @@ public class enemy : MonoBehaviour
         rb.linearVelocity = which * power; //현재 위치 * 무기 파워  
         lasthit = which;
         lastpower = power;
+
     }
 
 }

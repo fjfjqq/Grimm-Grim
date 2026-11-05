@@ -88,7 +88,28 @@ public class meleattack : MonoBehaviour
     {
         isattack = true;
         rb.linearVelocity = Vector2.zero;
+        animator.SetBool("walk", false);
+        animator.SetTrigger("attack");
     }
 
+    public void dead()
+    {
+        isattack = true;
+        rb.linearVelocity = Vector2.zero;
+        animator.SetBool("walk", false);
+        animator.SetTrigger("dead");
+    }
+
+    public void hitboxon()
+    {
+    public void hitboxoff()
+    {
+        attackhitbox.SetActive(false);
+    }
+
+    public void endattack()
+    {
+        isattack = false;
+    }
 
 }
