@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 976d24d8a13c6744fb63bbf794d38d89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7702111555299250666
+    second: nightskyland-Sheet_0
+  - first:
+      213: 5230493405762249279
+    second: nightskyland-Sheet_1
+  - first:
+      213: -5628611287092814253
+    second: nightskyland-Sheet_2
+  - first:
+      213: 2163221920328092852
+    second: nightskyland-Sheet_3
+  - first:
+      213: -8653804547718576107
+    second: nightskyland-Sheet_4
+  - first:
+      213: 6342283908655504263
+    second: nightskyland-Sheet_5
+  - first:
+      213: -325660428681747402
+    second: nightskyland-Sheet_6
+  - first:
+      213: 8569022854219914820
+    second: nightskyland-Sheet_7
+  - first:
+      213: 4795461806361280040
+    second: nightskyland-Sheet_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nightskyland-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 0
+        width: 297
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ee4f5195a9c1590800000000000000
+      internalID: -7702111555299250666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyland-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 0
+        width: 252
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f326b7a4a02769840800000000000000
+      internalID: 5230493405762249279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyland-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4774
+        y: 0
+        width: 197
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e14162bd723e1b0800000000000000
+      internalID: -5628611287092814253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyland-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 6409
+        y: 0
+        width: 242
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc8e7310ee450e10800000000000000
+      internalID: 2163221920328092852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyland-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8149
+        y: 0
+        width: 247
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51803991d9287e780800000000000000
+      internalID: -8653804547718576107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyland-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 9974
+        y: 0
+        width: 157
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b5610bc91540850800000000000000
+      internalID: 6342283908655504263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyland-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 11679
+        y: 0
+        width: 132
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634e507c0950b7bf0800000000000000
+      internalID: -325660428681747402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyland-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 13384
+        y: 0
+        width: 147
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e5bf1a2e84be670800000000000000
+      internalID: 8569022854219914820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyland-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 15104
+        y: 0
+        width: 147
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82efd1efa17ec8240800000000000000
+      internalID: 4795461806361280040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nightskyland-Sheet_0: -7702111555299250666
+      nightskyland-Sheet_1: 5230493405762249279
+      nightskyland-Sheet_2: -5628611287092814253
+      nightskyland-Sheet_3: 2163221920328092852
+      nightskyland-Sheet_4: -8653804547718576107
+      nightskyland-Sheet_5: 6342283908655504263
+      nightskyland-Sheet_6: -325660428681747402
+      nightskyland-Sheet_7: 8569022854219914820
+      nightskyland-Sheet_8: 4795461806361280040
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

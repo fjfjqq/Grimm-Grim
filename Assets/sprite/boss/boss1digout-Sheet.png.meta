@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: 2612e22c140b6c74687509b79507f101
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 966914584601730651
+    second: boss1digout-Sheet_0
+  - first:
+      213: -5180589689510511896
+    second: boss1digout-Sheet_1
+  - first:
+      213: 7107904393141450875
+    second: boss1digout-Sheet_2
+  - first:
+      213: 2505515776656493179
+    second: boss1digout-Sheet_3
+  - first:
+      213: 3105482588214433140
+    second: boss1digout-Sheet_4
+  - first:
+      213: -6526299062083190061
+    second: boss1digout-Sheet_5
+  - first:
+      213: -8639609779921713143
+    second: boss1digout-Sheet_6
+  - first:
+      213: -2631527258199073860
+    second: boss1digout-Sheet_7
+  - first:
+      213: 3377384961754274729
+    second: boss1digout-Sheet_8
+  - first:
+      213: 5957316151297608939
+    second: boss1digout-Sheet_9
+  - first:
+      213: 5826124827681517005
+    second: boss1digout-Sheet_10
+  - first:
+      213: -6697247973409129763
+    second: boss1digout-Sheet_11
+  - first:
+      213: 7651006485317254233
+    second: boss1digout-Sheet_12
+  - first:
+      213: 3414192330055602888
+    second: boss1digout-Sheet_13
+  - first:
+      213: -6058204089310183542
+    second: boss1digout-Sheet_14
+  - first:
+      213: 204079555297858736
+    second: boss1digout-Sheet_15
+  - first:
+      213: 3358755892976314560
+    second: boss1digout-Sheet_16
+  - first:
+      213: 8967350352840538348
+    second: boss1digout-Sheet_17
+  - first:
+      213: -3363867563459675709
+    second: boss1digout-Sheet_18
+  - first:
+      213: 1021164904481507329
+    second: boss1digout-Sheet_19
+  - first:
+      213: 926188020858498652
+    second: boss1digout-Sheet_20
+  - first:
+      213: -9189477150054567028
+    second: boss1digout-Sheet_21
+  - first:
+      213: -5788673269628274025
+    second: boss1digout-Sheet_22
+  - first:
+      213: 4792763395913907813
+    second: boss1digout-Sheet_23
+  - first:
+      213: 1965033515206110391
+    second: boss1digout-Sheet_24
+  - first:
+      213: -4545677788224511831
+    second: boss1digout-Sheet_25
+  - first:
+      213: -7756605701489310418
+    second: boss1digout-Sheet_26
+  - first:
+      213: 3496078029068534361
+    second: boss1digout-Sheet_27
+  - first:
+      213: -2867073461697047507
+    second: boss1digout-Sheet_28
+  - first:
+      213: 5042744892938835083
+    second: boss1digout-Sheet_29
+  - first:
+      213: 1761432744030517533
+    second: boss1digout-Sheet_30
+  - first:
+      213: -599520723417897307
+    second: boss1digout-Sheet_31
+  - first:
+      213: 1321055713472901860
+    second: boss1digout-Sheet_32
+  - first:
+      213: -3568454076962873028
+    second: boss1digout-Sheet_33
+  - first:
+      213: -4370143285756412366
+    second: boss1digout-Sheet_34
+  - first:
+      213: -4678625840478921136
+    second: boss1digout-Sheet_35
+  - first:
+      213: -6939586857221864900
+    second: boss1digout-Sheet_36
+  - first:
+      213: -3999378402939669023
+    second: boss1digout-Sheet_37
+  - first:
+      213: -3918083634042635950
+    second: boss1digout-Sheet_38
+  - first:
+      213: 5740397163856787847
+    second: boss1digout-Sheet_39
+  - first:
+      213: 3496130515396430956
+    second: boss1digout-Sheet_40
+  - first:
+      213: 337042661142171762
+    second: boss1digout-Sheet_41
+  - first:
+      213: 4753972111880973364
+    second: boss1digout-Sheet_42
+  - first:
+      213: 5910875020699404587
+    second: boss1digout-Sheet_43
+  - first:
+      213: -1165134550133385096
+    second: boss1digout-Sheet_44
+  - first:
+      213: 8835994554749797057
+    second: boss1digout-Sheet_45
+  - first:
+      213: 8309572863941425680
+    second: boss1digout-Sheet_46
+  - first:
+      213: -873683428552966162
+    second: boss1digout-Sheet_47
+  - first:
+      213: 5342177331733738203
+    second: boss1digout-Sheet_48
+  - first:
+      213: 8674312974993620403
+    second: boss1digout-Sheet_49
+  - first:
+      213: -6000144478430880252
+    second: boss1digout-Sheet_50
+  - first:
+      213: 1438612626202187878
+    second: boss1digout-Sheet_51
+  - first:
+      213: -6224020910725543402
+    second: boss1digout-Sheet_52
+  - first:
+      213: 762542165339895269
+    second: boss1digout-Sheet_53
+  - first:
+      213: -4481181549074085891
+    second: boss1digout-Sheet_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss1digout-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11409
+        y: 549
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e945711bb2b6d00800000000000000
+      internalID: 966914584601730651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 15059
+        y: 549
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eabca51029da18b0800000000000000
+      internalID: -5180589689510511896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 19004
+        y: 0
+        width: 322
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7872a2e26954a260800000000000000
+      internalID: 7107904393141450875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 20804
+        y: 0
+        width: 372
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a4fb6f25165c220800000000000000
+      internalID: 2505515776656493179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 22569
+        y: 0
+        width: 542
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4759eaed5f3e81b20800000000000000
+      internalID: 3105482588214433140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 24334
+        y: 0
+        width: 592
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d20192b49ded65a0800000000000000
+      internalID: -6526299062083190061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 26134
+        y: 0
+        width: 617
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90886c50ea0f91880800000000000000
+      internalID: -8639609779921713143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6069
+        y: 0
+        width: 627
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb594ea6efea7bd0800000000000000
+      internalID: -2631527258199073860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 8059
+        y: 0
+        width: 417
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab1c138ab1eede20800000000000000
+      internalID: 3377384961754274729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 9884
+        y: 0
+        width: 367
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec8ac4f973aca250800000000000000
+      internalID: 5957316151297608939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 11709
+        y: 0
+        width: 367
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd6a03a9ad8ad050800000000000000
+      internalID: 5826124827681517005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 13534
+        y: 0
+        width: 367
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda7e34a3789e03a0800000000000000
+      internalID: -6697247973409129763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 15359
+        y: 0
+        width: 367
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c7b839cd5dd2a60800000000000000
+      internalID: 7651006485317254233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 17184
+        y: 0
+        width: 367
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2d3d3c5d5a16f20800000000000000
+      internalID: 3414192330055602888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 24329
+        y: 499
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ff8df7a7feceba0800000000000000
+      internalID: -6058204089310183542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 10249
+        y: 199
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4d277364905d200800000000000000
+      internalID: 204079555297858736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 10304
+        y: 189
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c86a1070b2bc9e20800000000000000
+      internalID: 3358755892976314560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 12119
+        y: 194
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8b88582ad627c70800000000000000
+      internalID: 8967350352840538348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 12149
+        y: 174
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9f68806442151d0800000000000000
+      internalID: -3363867563459675709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4379
+        y: 0
+        width: 447
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10847bcf118eb2e00800000000000000
+      internalID: 1021164904481507329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 9849
+        y: 134
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e2e7a091b7adc00800000000000000
+      internalID: 926188020858498652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 10319
+        y: 139
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83bd6f483b687080800000000000000
+      internalID: -9189477150054567028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 10394
+        y: 149
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79af10bb4508aafa0800000000000000
+      internalID: -5788673269628274025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 11669
+        y: 154
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e71f95ae0538240800000000000000
+      internalID: 4792763395913907813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 12184
+        y: 149
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bce8952293354b10800000000000000
+      internalID: 1965033515206110391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 8034
+        y: 94
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0ae79b2228ae0c0800000000000000
+      internalID: -4545677788224511831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 12244
+        y: 134
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25c5f3f5300b5490800000000000000
+      internalID: -7756605701489310418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 7999
+        y: 79
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9528da5c170948030800000000000000
+      internalID: 3496078029068534361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 9799
+        y: 94
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24199280eb1638d0800000000000000
+      internalID: -2867073461697047507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 11624
+        y: 99
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84d88433cd6bf540800000000000000
+      internalID: 5042744892938835083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 8519
+        y: 64
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d193eab8fbdd17810800000000000000
+      internalID: 1761432744030517533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 10304
+        y: 69
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6e03514131ea7f0800000000000000
+      internalID: -599520723417897307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 12174
+        y: 69
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e27d021c25555210800000000000000
+      internalID: 1321055713472901860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 7974
+        y: 29
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3165596ced4a7ec0800000000000000
+      internalID: -3568454076962873028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 8009
+        y: 44
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e3eeae5d12a53c0800000000000000
+      internalID: -4370143285756412366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 8049
+        y: 14
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e5a45269e221fb0800000000000000
+      internalID: -4678625840478921136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 8464
+        y: 34
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3242575582a1bf90800000000000000
+      internalID: -6939586857221864900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 9774
+        y: 39
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5796a388a5f78c0800000000000000
+      internalID: -3999378402939669023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 10414
+        y: 49
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259fd9891bb20a9c0800000000000000
+      internalID: -3918083634042635950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 11599
+        y: 39
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789f75d7eccf9af40800000000000000
+      internalID: 5740397163856787847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 12269
+        y: 34
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c8b923e20c48030800000000000000
+      internalID: 3496130515396430956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 0
+        width: 362
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270188bb38a6da400800000000000000
+      internalID: 337042661142171762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 7914
+        y: 19
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c67c8b27089f140800000000000000
+      internalID: 4753972111880973364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 7999
+        y: 9
+        width: 47
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b298480a385a70250800000000000000
+      internalID: 5910875020699404587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 9719
+        y: 9
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878d3cfbc4c94dfe0800000000000000
+      internalID: -1165134550133385096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 19419
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2c5218b32cf9a70800000000000000
+      internalID: 8835994554749797057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 7854
+        y: 0
+        width: 57
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a34766e78815370800000000000000
+      internalID: 8309572863941425680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 8044
+        y: 0
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef74fafc8d00e3f0800000000000000
+      internalID: -873683428552966162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 8519
+        y: 0
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd23229aaf9332a40800000000000000
+      internalID: 5342177331733738203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 9659
+        y: 0
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd7e0931b9516870800000000000000
+      internalID: 8674312974993620403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 10399
+        y: 0
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e1b1213643bbca0800000000000000
+      internalID: -6000144478430880252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 11469
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6685c2abf8af6f310800000000000000
+      internalID: 1438612626202187878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 11539
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ac99d35f5df99a0800000000000000
+      internalID: -6224020910725543402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 12269
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5775b2f08159a00800000000000000
+      internalID: 762542165339895269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss1digout-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 19459
+        y: 4
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df787699f15afc1c0800000000000000
+      internalID: -4481181549074085891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss1digout-Sheet_0: 966914584601730651
+      boss1digout-Sheet_1: -5180589689510511896
+      boss1digout-Sheet_10: 5826124827681517005
+      boss1digout-Sheet_11: -6697247973409129763
+      boss1digout-Sheet_12: 7651006485317254233
+      boss1digout-Sheet_13: 3414192330055602888
+      boss1digout-Sheet_14: -6058204089310183542
+      boss1digout-Sheet_15: 204079555297858736
+      boss1digout-Sheet_16: 3358755892976314560
+      boss1digout-Sheet_17: 8967350352840538348
+      boss1digout-Sheet_18: -3363867563459675709
+      boss1digout-Sheet_19: 1021164904481507329
+      boss1digout-Sheet_2: 7107904393141450875
+      boss1digout-Sheet_20: 926188020858498652
+      boss1digout-Sheet_21: -9189477150054567028
+      boss1digout-Sheet_22: -5788673269628274025
+      boss1digout-Sheet_23: 4792763395913907813
+      boss1digout-Sheet_24: 1965033515206110391
+      boss1digout-Sheet_25: -4545677788224511831
+      boss1digout-Sheet_26: -7756605701489310418
+      boss1digout-Sheet_27: 3496078029068534361
+      boss1digout-Sheet_28: -2867073461697047507
+      boss1digout-Sheet_29: 5042744892938835083
+      boss1digout-Sheet_3: 2505515776656493179
+      boss1digout-Sheet_30: 1761432744030517533
+      boss1digout-Sheet_31: -599520723417897307
+      boss1digout-Sheet_32: 1321055713472901860
+      boss1digout-Sheet_33: -3568454076962873028
+      boss1digout-Sheet_34: -4370143285756412366
+      boss1digout-Sheet_35: -4678625840478921136
+      boss1digout-Sheet_36: -6939586857221864900
+      boss1digout-Sheet_37: -3999378402939669023
+      boss1digout-Sheet_38: -3918083634042635950
+      boss1digout-Sheet_39: 5740397163856787847
+      boss1digout-Sheet_4: 3105482588214433140
+      boss1digout-Sheet_40: 3496130515396430956
+      boss1digout-Sheet_41: 337042661142171762
+      boss1digout-Sheet_42: 4753972111880973364
+      boss1digout-Sheet_43: 5910875020699404587
+      boss1digout-Sheet_44: -1165134550133385096
+      boss1digout-Sheet_45: 8835994554749797057
+      boss1digout-Sheet_46: 8309572863941425680
+      boss1digout-Sheet_47: -873683428552966162
+      boss1digout-Sheet_48: 5342177331733738203
+      boss1digout-Sheet_49: 8674312974993620403
+      boss1digout-Sheet_5: -6526299062083190061
+      boss1digout-Sheet_50: -6000144478430880252
+      boss1digout-Sheet_51: 1438612626202187878
+      boss1digout-Sheet_52: -6224020910725543402
+      boss1digout-Sheet_53: 762542165339895269
+      boss1digout-Sheet_54: -4481181549074085891
+      boss1digout-Sheet_6: -8639609779921713143
+      boss1digout-Sheet_7: -2631527258199073860
+      boss1digout-Sheet_8: 3377384961754274729
+      boss1digout-Sheet_9: 5957316151297608939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

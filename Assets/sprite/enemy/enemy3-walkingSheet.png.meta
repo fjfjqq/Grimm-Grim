@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 3f988ddcbecacd84387088ff721628d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4098654280034303115
+    second: enemy3-walkingSheet_0
+  - first:
+      213: -4124135790047017187
+    second: enemy3-walkingSheet_1
+  - first:
+      213: 492301364274005209
+    second: enemy3-walkingSheet_2
+  - first:
+      213: 9118951379088351148
+    second: enemy3-walkingSheet_3
+  - first:
+      213: -5866820534977613034
+    second: enemy3-walkingSheet_4
+  - first:
+      213: -4715845806813499433
+    second: enemy3-walkingSheet_5
+  - first:
+      213: 6209260014412139547
+    second: enemy3-walkingSheet_6
+  - first:
+      213: -5646454181666293173
+    second: enemy3-walkingSheet_7
+  - first:
+      213: 1707705544880941076
+    second: enemy3-walkingSheet_8
+  - first:
+      213: -5120797845500426574
+    second: enemy3-walkingSheet_9
+  - first:
+      213: 1010071018034461134
+    second: enemy3-walkingSheet_10
+  - first:
+      213: -6143557151151632356
+    second: enemy3-walkingSheet_11
+  - first:
+      213: 6492780498768942454
+    second: enemy3-walkingSheet_12
+  - first:
+      213: -3778066482768126369
+    second: enemy3-walkingSheet_13
+  - first:
+      213: 4379738764760296726
+    second: enemy3-walkingSheet_14
+  - first:
+      213: -8714072120635700787
+    second: enemy3-walkingSheet_15
+  - first:
+      213: 3633021616580151377
+    second: enemy3-walkingSheet_16
+  - first:
+      213: 8460162450881722555
+    second: enemy3-walkingSheet_17
+  - first:
+      213: -4211186839953232586
+    second: enemy3-walkingSheet_18
+  - first:
+      213: 4796794248537647709
+    second: enemy3-walkingSheet_19
+  - first:
+      213: -1625899767596783483
+    second: enemy3-walkingSheet_20
+  - first:
+      213: 4829527135006666220
+    second: enemy3-walkingSheet_21
+  - first:
+      213: -2228552260590225353
+    second: enemy3-walkingSheet_22
+  - first:
+      213: 4504741944546412280
+    second: enemy3-walkingSheet_23
+  - first:
+      213: -8119364802153929058
+    second: enemy3-walkingSheet_24
+  - first:
+      213: -1390546694897311085
+    second: enemy3-walkingSheet_25
+  - first:
+      213: -4262888399987977143
+    second: enemy3-walkingSheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573cb6dd5a7ae17c0800000000000000
+      internalID: -4098654280034303115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 0
+        width: 222
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17c5cc795024c6c0800000000000000
+      internalID: -4124135790047017187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 212
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d40ef38b7105d600800000000000000
+      internalID: 492301364274005209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 0
+        width: 207
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf9e9a07f50d8e70800000000000000
+      internalID: 9118951379088351148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 0
+        width: 207
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61331b3aecdd49ea0800000000000000
+      internalID: -5866820534977613034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 0
+        width: 207
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfad5d6933fd8eb0800000000000000
+      internalID: -4715845806813499433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4049
+        y: 0
+        width: 207
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c8215c519bb2650800000000000000
+      internalID: 6209260014412139547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_7
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 0
+        width: 207
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4af24586d3c3a1b0800000000000000
+      internalID: -5646454181666293173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5329
+        y: 0
+        width: 207
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418e79f252df2b710800000000000000
+      internalID: 1707705544880941076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_9
+      rect:
+        serializedVersion: 2
+        x: 5969
+        y: 0
+        width: 207
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b68c5c9d754fe8b0800000000000000
+      internalID: -5120797845500426574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_10
+      rect:
+        serializedVersion: 2
+        x: 6609
+        y: 0
+        width: 207
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec97cd34d3e740e00800000000000000
+      internalID: 1010071018034461134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_11
+      rect:
+        serializedVersion: 2
+        x: 7239
+        y: 0
+        width: 217
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10db4c2253bdbaa0800000000000000
+      internalID: -6143557151151632356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_12
+      rect:
+        serializedVersion: 2
+        x: 7869
+        y: 0
+        width: 227
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675d4b1a67dfa1a50800000000000000
+      internalID: 6492780498768942454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_13
+      rect:
+        serializedVersion: 2
+        x: 8504
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5edbcc0d8c919bc0800000000000000
+      internalID: -3778066482768126369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_14
+      rect:
+        serializedVersion: 2
+        x: 9144
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dab82a335f7cc30800000000000000
+      internalID: 4379738764760296726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_15
+      rect:
+        serializedVersion: 2
+        x: 9784
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9cf5e4395611780800000000000000
+      internalID: -8714072120635700787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_16
+      rect:
+        serializedVersion: 2
+        x: 10424
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158439569e51b6230800000000000000
+      internalID: 3633021616580151377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_17
+      rect:
+        serializedVersion: 2
+        x: 11064
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb837eadce8886570800000000000000
+      internalID: 8460162450881722555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_18
+      rect:
+        serializedVersion: 2
+        x: 11704
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63da9c181ebde85c0800000000000000
+      internalID: -4211186839953232586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_19
+      rect:
+        serializedVersion: 2
+        x: 12344
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a29bc54f2a19240800000000000000
+      internalID: 4796794248537647709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_20
+      rect:
+        serializedVersion: 2
+        x: 12984
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588e00896c4af69e0800000000000000
+      internalID: -1625899767596783483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_21
+      rect:
+        serializedVersion: 2
+        x: 13624
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedae23675de50340800000000000000
+      internalID: 4829527135006666220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_22
+      rect:
+        serializedVersion: 2
+        x: 14264
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7383020c6879211e0800000000000000
+      internalID: -2228552260590225353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_23
+      rect:
+        serializedVersion: 2
+        x: 14904
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6cd717eee048e30800000000000000
+      internalID: 4504741944546412280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_24
+      rect:
+        serializedVersion: 2
+        x: 15544
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e962ecd0bb8325f80800000000000000
+      internalID: -8119364802153929058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_25
+      rect:
+        serializedVersion: 2
+        x: 16184
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3926d0ff529c3bce0800000000000000
+      internalID: -1390546694897311085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3-walkingSheet_26
+      rect:
+        serializedVersion: 2
+        x: 16824
+        y: 0
+        width: 232
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9445591069d27d4c0800000000000000
+      internalID: -4262888399987977143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy3-walkingSheet_0: -4098654280034303115
+      enemy3-walkingSheet_1: -4124135790047017187
+      enemy3-walkingSheet_10: 1010071018034461134
+      enemy3-walkingSheet_11: -6143557151151632356
+      enemy3-walkingSheet_12: 6492780498768942454
+      enemy3-walkingSheet_13: -3778066482768126369
+      enemy3-walkingSheet_14: 4379738764760296726
+      enemy3-walkingSheet_15: -8714072120635700787
+      enemy3-walkingSheet_16: 3633021616580151377
+      enemy3-walkingSheet_17: 8460162450881722555
+      enemy3-walkingSheet_18: -4211186839953232586
+      enemy3-walkingSheet_19: 4796794248537647709
+      enemy3-walkingSheet_2: 492301364274005209
+      enemy3-walkingSheet_20: -1625899767596783483
+      enemy3-walkingSheet_21: 4829527135006666220
+      enemy3-walkingSheet_22: -2228552260590225353
+      enemy3-walkingSheet_23: 4504741944546412280
+      enemy3-walkingSheet_24: -8119364802153929058
+      enemy3-walkingSheet_25: -1390546694897311085
+      enemy3-walkingSheet_26: -4262888399987977143
+      enemy3-walkingSheet_3: 9118951379088351148
+      enemy3-walkingSheet_4: -5866820534977613034
+      enemy3-walkingSheet_5: -4715845806813499433
+      enemy3-walkingSheet_6: 6209260014412139547
+      enemy3-walkingSheet_7: -5646454181666293173
+      enemy3-walkingSheet_8: 1707705544880941076
+      enemy3-walkingSheet_9: -5120797845500426574
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

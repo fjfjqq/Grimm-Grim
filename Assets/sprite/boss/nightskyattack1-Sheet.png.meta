@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: b6082db8097519c489cf7063baf7b6ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2164885927590708455
+    second: nightskyattack1-Sheet_0
+  - first:
+      213: 1755669186637876646
+    second: nightskyattack1-Sheet_1
+  - first:
+      213: 1796052880471191246
+    second: nightskyattack1-Sheet_2
+  - first:
+      213: -1451505879217688326
+    second: nightskyattack1-Sheet_3
+  - first:
+      213: 3760671194407718379
+    second: nightskyattack1-Sheet_4
+  - first:
+      213: -8886178249549178227
+    second: nightskyattack1-Sheet_5
+  - first:
+      213: 6865566675411934126
+    second: nightskyattack1-Sheet_6
+  - first:
+      213: -5724367742316758347
+    second: nightskyattack1-Sheet_7
+  - first:
+      213: -3081241248762932281
+    second: nightskyattack1-Sheet_8
+  - first:
+      213: -41375901527801767
+    second: nightskyattack1-Sheet_9
+  - first:
+      213: -2465877789971696543
+    second: nightskyattack1-Sheet_10
+  - first:
+      213: 4678903659137113845
+    second: nightskyattack1-Sheet_11
+  - first:
+      213: -2230259527100653835
+    second: nightskyattack1-Sheet_12
+  - first:
+      213: 3622766567508884669
+    second: nightskyattack1-Sheet_13
+  - first:
+      213: 3819937201928668037
+    second: nightskyattack1-Sheet_14
+  - first:
+      213: 3176364156015173382
+    second: nightskyattack1-Sheet_15
+  - first:
+      213: 3124479964520678802
+    second: nightskyattack1-Sheet_16
+  - first:
+      213: 9130754936472235650
+    second: nightskyattack1-Sheet_17
+  - first:
+      213: 4662501834834146185
+    second: nightskyattack1-Sheet_18
+  - first:
+      213: -4038399497999793566
+    second: nightskyattack1-Sheet_19
+  - first:
+      213: -8736762097173755308
+    second: nightskyattack1-Sheet_20
+  - first:
+      213: -2411888433345702645
+    second: nightskyattack1-Sheet_21
+  - first:
+      213: 9080549778985058639
+    second: nightskyattack1-Sheet_22
+  - first:
+      213: 2156079721046666558
+    second: nightskyattack1-Sheet_23
+  - first:
+      213: 7624924950808090524
+    second: nightskyattack1-Sheet_24
+  - first:
+      213: -628419487638118718
+    second: nightskyattack1-Sheet_25
+  - first:
+      213: -2131951874876322252
+    second: nightskyattack1-Sheet_26
+  - first:
+      213: -3858330250658021740
+    second: nightskyattack1-Sheet_27
+  - first:
+      213: 522089351559573441
+    second: nightskyattack1-Sheet_28
+  - first:
+      213: 5692417720155401834
+    second: nightskyattack1-Sheet_29
+  - first:
+      213: -5375482278523913392
+    second: nightskyattack1-Sheet_30
+  - first:
+      213: 3885899192321185484
+    second: nightskyattack1-Sheet_31
+  - first:
+      213: 6127261144634233573
+    second: nightskyattack1-Sheet_32
+  - first:
+      213: -5276957250600498999
+    second: nightskyattack1-Sheet_33
+  - first:
+      213: -7614674861464159361
+    second: nightskyattack1-Sheet_34
+  - first:
+      213: -2822129724846509725
+    second: nightskyattack1-Sheet_35
+  - first:
+      213: 2664381030364253612
+    second: nightskyattack1-Sheet_36
+  - first:
+      213: 2192403407617966150
+    second: nightskyattack1-Sheet_37
+  - first:
+      213: 3393706463050471431
+    second: nightskyattack1-Sheet_38
+  - first:
+      213: -1880771428640015120
+    second: nightskyattack1-Sheet_39
+  - first:
+      213: 478981363931192770
+    second: nightskyattack1-Sheet_40
+  - first:
+      213: 4384397394736130887
+    second: nightskyattack1-Sheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 127
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e44945f7483b0e10800000000000000
+      internalID: 2164885927590708455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 0
+        width: 127
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad46a4c2d36d5810800000000000000
+      internalID: 1755669186637876646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 127
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece6d42349cdce810800000000000000
+      internalID: 1796052880471191246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 0
+        width: 127
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0b6dfd7173bdbe0800000000000000
+      internalID: -1451505879217688326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 0
+        width: 157
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed47b3c686903430800000000000000
+      internalID: 3760671194407718379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 0
+        width: 197
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a91d886f3fda480800000000000000
+      internalID: -8886178249549178227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 0
+        width: 242
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab10b51484674f50800000000000000
+      internalID: 6865566675411934126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4049
+        y: 0
+        width: 262
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba318b0ed5fe80b0800000000000000
+      internalID: -5724367742316758347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4599
+        y: 0
+        width: 287
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3543cc86b3d35d0800000000000000
+      internalID: -3081241248762932281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5174
+        y: 0
+        width: 287
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9508c2736d00d6ff0800000000000000
+      internalID: -41375901527801767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5749
+        y: 0
+        width: 287
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164363df63177cdd0800000000000000
+      internalID: -2465877789971696543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 6374
+        y: 0
+        width: 237
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe942d861ecee040800000000000000
+      internalID: 4678903659137113845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6979
+        y: 0
+        width: 222
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe1c3ac6c68c01e0800000000000000
+      internalID: -2230259527100653835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 8169
+        y: 0
+        width: 202
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc3788bff6a64230800000000000000
+      internalID: 3622766567508884669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 8744
+        y: 0
+        width: 202
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583024175a4230530800000000000000
+      internalID: 3819937201928668037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 9319
+        y: 0
+        width: 202
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f519cee56b41c20800000000000000
+      internalID: 3176364156015173382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 9859
+        y: 0
+        width: 262
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295841939f16c5b20800000000000000
+      internalID: 3124479964520678802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 10434
+        y: 0
+        width: 262
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e6297ec35f6be70800000000000000
+      internalID: 9130754936472235650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 11009
+        y: 0
+        width: 262
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98375ed37b884b040800000000000000
+      internalID: 4662501834834146185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 11584
+        y: 0
+        width: 262
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2624b9c8d09b4f7c0800000000000000
+      internalID: -4038399497999793566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 14269
+        y: 274
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a8cd67929c0c680800000000000000
+      internalID: -8736762097173755308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 14804
+        y: 289
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b055e84af30478ed0800000000000000
+      internalID: -2411888433345702645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 15604
+        y: 0
+        width: 262
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4108a5c9e7940e70800000000000000
+      internalID: 9080549778985058639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 16259
+        y: 0
+        width: 127
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3de868351febed10800000000000000
+      internalID: 2156079721046666558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 16834
+        y: 0
+        width: 127
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97ddeb18dc21d960800000000000000
+      internalID: 7624924950808090524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 7554
+        y: 0
+        width: 227
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce95653ec76747f0800000000000000
+      internalID: -628419487638118718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 14114
+        y: 259
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ec4cbb019c962e0800000000000000
+      internalID: -2131951874876322252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 14174
+        y: 234
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e726f4415747ac0800000000000000
+      internalID: -3858330250658021740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 14659
+        y: 264
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfe8b4cf75de3700800000000000000
+      internalID: 522089351559573441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 13224
+        y: 0
+        width: 537
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e600bb1c78ffe40800000000000000
+      internalID: 5692417720155401834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 13914
+        y: 0
+        width: 312
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bbc2429537665b0800000000000000
+      internalID: -5375482278523913392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 14724
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6184f1abc7de530800000000000000
+      internalID: 3885899192321185484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 12074
+        y: 0
+        width: 532
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e21af32c87680550800000000000000
+      internalID: 6127261144634233573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 12639
+        y: 0
+        width: 547
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8090fc65b74c6b0800000000000000
+      internalID: -5276957250600498999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 14229
+        y: 214
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bf45ace8d335690800000000000000
+      internalID: -7614674861464159361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 14269
+        y: 209
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361f370b7f7c5d8d0800000000000000
+      internalID: -2822129724846509725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 14489
+        y: 0
+        width: 312
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad862d3e68c9f420800000000000000
+      internalID: 2664381030364253612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 15029
+        y: 0
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640cc6b884bfc6e10800000000000000
+      internalID: 2192403407617966150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 12599
+        y: 119
+        width: 12
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708121a2c0ed81f20800000000000000
+      internalID: 3393706463050471431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4044
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc3534b95826e5e0800000000000000
+      internalID: -1880771428640015120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 12604
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd9623430fa5a600800000000000000
+      internalID: 478981363931192770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskyattack1-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 12629
+        y: 39
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b2563733288dc30800000000000000
+      internalID: 4384397394736130887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nightskyattack1-Sheet_0: 2164885927590708455
+      nightskyattack1-Sheet_1: 1755669186637876646
+      nightskyattack1-Sheet_10: -2465877789971696543
+      nightskyattack1-Sheet_11: 4678903659137113845
+      nightskyattack1-Sheet_12: -2230259527100653835
+      nightskyattack1-Sheet_13: 3622766567508884669
+      nightskyattack1-Sheet_14: 3819937201928668037
+      nightskyattack1-Sheet_15: 3176364156015173382
+      nightskyattack1-Sheet_16: 3124479964520678802
+      nightskyattack1-Sheet_17: 9130754936472235650
+      nightskyattack1-Sheet_18: 4662501834834146185
+      nightskyattack1-Sheet_19: -4038399497999793566
+      nightskyattack1-Sheet_2: 1796052880471191246
+      nightskyattack1-Sheet_20: -8736762097173755308
+      nightskyattack1-Sheet_21: -2411888433345702645
+      nightskyattack1-Sheet_22: 9080549778985058639
+      nightskyattack1-Sheet_23: 2156079721046666558
+      nightskyattack1-Sheet_24: 7624924950808090524
+      nightskyattack1-Sheet_25: -628419487638118718
+      nightskyattack1-Sheet_26: -2131951874876322252
+      nightskyattack1-Sheet_27: -3858330250658021740
+      nightskyattack1-Sheet_28: 522089351559573441
+      nightskyattack1-Sheet_29: 5692417720155401834
+      nightskyattack1-Sheet_3: -1451505879217688326
+      nightskyattack1-Sheet_30: -5375482278523913392
+      nightskyattack1-Sheet_31: 3885899192321185484
+      nightskyattack1-Sheet_32: 6127261144634233573
+      nightskyattack1-Sheet_33: -5276957250600498999
+      nightskyattack1-Sheet_34: -7614674861464159361
+      nightskyattack1-Sheet_35: -2822129724846509725
+      nightskyattack1-Sheet_36: 2664381030364253612
+      nightskyattack1-Sheet_37: 2192403407617966150
+      nightskyattack1-Sheet_38: 3393706463050471431
+      nightskyattack1-Sheet_39: -1880771428640015120
+      nightskyattack1-Sheet_4: 3760671194407718379
+      nightskyattack1-Sheet_40: 478981363931192770
+      nightskyattack1-Sheet_41: 4384397394736130887
+      nightskyattack1-Sheet_5: -8886178249549178227
+      nightskyattack1-Sheet_6: 6865566675411934126
+      nightskyattack1-Sheet_7: -5724367742316758347
+      nightskyattack1-Sheet_8: -3081241248762932281
+      nightskyattack1-Sheet_9: -41375901527801767
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: edc2df0de4044584598cf725b057aef3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3897993558316324267
+    second: nightskydefeat-Sheet_0
+  - first:
+      213: -2765478188802847187
+    second: nightskydefeat-Sheet_1
+  - first:
+      213: 7700841624152430668
+    second: nightskydefeat-Sheet_2
+  - first:
+      213: 3111891219010649649
+    second: nightskydefeat-Sheet_3
+  - first:
+      213: 7775203889459002325
+    second: nightskydefeat-Sheet_4
+  - first:
+      213: 2459430578916434643
+    second: nightskydefeat-Sheet_5
+  - first:
+      213: 613268664378444277
+    second: nightskydefeat-Sheet_6
+  - first:
+      213: 5396056997193281816
+    second: nightskydefeat-Sheet_7
+  - first:
+      213: -1868847563581866303
+    second: nightskydefeat-Sheet_8
+  - first:
+      213: -6442009072572287725
+    second: nightskydefeat-Sheet_9
+  - first:
+      213: 1402620147197568942
+    second: nightskydefeat-Sheet_10
+  - first:
+      213: 1050451827533156551
+    second: nightskydefeat-Sheet_11
+  - first:
+      213: -6740982397382967518
+    second: nightskydefeat-Sheet_12
+  - first:
+      213: -8671216128897531897
+    second: nightskydefeat-Sheet_13
+  - first:
+      213: -1463807230168072297
+    second: nightskydefeat-Sheet_14
+  - first:
+      213: 1472710360166589597
+    second: nightskydefeat-Sheet_15
+  - first:
+      213: -9205804941145047660
+    second: nightskydefeat-Sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15154
+        y: 334
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a6bcbd28b87e9c0800000000000000
+      internalID: -3897993558316324267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 16874
+        y: 344
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ec05a4d3c0f99d0800000000000000
+      internalID: -2765478188802847187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 9919
+        y: 0
+        width: 217
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48d52708a2eeda60800000000000000
+      internalID: 7700841624152430668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 11709
+        y: 0
+        width: 17
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e79c08398af2b20800000000000000
+      internalID: 3111891219010649649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 13434
+        y: 324
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db707f1eb217eb60800000000000000
+      internalID: 7775203889459002325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 8199
+        y: 0
+        width: 217
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d22c06b417a12220800000000000000
+      internalID: 2459430578916434643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 13434
+        y: 139
+        width: 12
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9c72cd994c28800800000000000000
+      internalID: 613268664378444277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 15154
+        y: 204
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8117779df35a2ea40800000000000000
+      internalID: 5396056997193281816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 16874
+        y: 229
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce3951ea058016e0800000000000000
+      internalID: -1868847563581866303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 0
+        width: 207
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3153c7531e26996a0800000000000000
+      internalID: -6442009072572287725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3014
+        y: 0
+        width: 207
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7648ca79b177310800000000000000
+      internalID: 1402620147197568942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4734
+        y: 0
+        width: 207
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c016c12f54f39e00800000000000000
+      internalID: 1050451827533156551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6454
+        y: 0
+        width: 207
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fb3de89383372a0800000000000000
+      internalID: -6740982397382967518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 15154
+        y: 154
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700cc627fd6a9a780800000000000000
+      internalID: -8671216128897531897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 16874
+        y: 154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ffe2a64138fabe0800000000000000
+      internalID: -1463807230168072297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 13434
+        y: 99
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9464c2154e107410800000000000000
+      internalID: 1472710360166589597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightskydefeat-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 15154
+        y: 129
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d73833e296e3080800000000000000
+      internalID: -9205804941145047660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nightskydefeat-Sheet_0: -3897993558316324267
+      nightskydefeat-Sheet_1: -2765478188802847187
+      nightskydefeat-Sheet_10: 1402620147197568942
+      nightskydefeat-Sheet_11: 1050451827533156551
+      nightskydefeat-Sheet_12: -6740982397382967518
+      nightskydefeat-Sheet_13: -8671216128897531897
+      nightskydefeat-Sheet_14: -1463807230168072297
+      nightskydefeat-Sheet_15: 1472710360166589597
+      nightskydefeat-Sheet_16: -9205804941145047660
+      nightskydefeat-Sheet_2: 7700841624152430668
+      nightskydefeat-Sheet_3: 3111891219010649649
+      nightskydefeat-Sheet_4: 7775203889459002325
+      nightskydefeat-Sheet_5: 2459430578916434643
+      nightskydefeat-Sheet_6: 613268664378444277
+      nightskydefeat-Sheet_7: 5396056997193281816
+      nightskydefeat-Sheet_8: -1868847563581866303
+      nightskydefeat-Sheet_9: -6442009072572287725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
