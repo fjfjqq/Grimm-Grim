@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5468305706642560737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7438279584594256561}
+  - component: {fileID: 787365787293747809}
+  m_Layer: 0
+  m_Name: batteryheal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7438279584594256561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468305706642560737}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.08543, y: 3.49572, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &787365787293747809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468305706642560737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66e76738901e0458ccf1cc51b97b00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::bettaryheal
+  batterysprites:
+  - {fileID: -8576380673462527755, guid: c3854cebe5dfbff4b857960dbab20fe0, type: 3}
+  - {fileID: 8623685776567016857, guid: c3854cebe5dfbff4b857960dbab20fe0, type: 3}
+  - {fileID: -7361321614315248649, guid: c3854cebe5dfbff4b857960dbab20fe0, type: 3}
+  - {fileID: -8022215947410553042, guid: c3854cebe5dfbff4b857960dbab20fe0, type: 3}
+  - {fileID: 8392046453660968379, guid: c3854cebe5dfbff4b857960dbab20fe0, type: 3}
+  - {fileID: -6576676968984448851, guid: c3854cebe5dfbff4b857960dbab20fe0, type: 3}
+  - {fileID: 8499916036450390990, guid: c3854cebe5dfbff4b857960dbab20fe0, type: 3}
+  batteryimage: {fileID: 0}
+  maxcharge: 6
+  nowcharge: 0
+  isheal: 0

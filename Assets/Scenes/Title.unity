@@ -7320,6 +7320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blackout
       objectReference: {fileID: 0}
+    - target: {fileID: 7322311655422591829, guid: c42331508563faa4882aaae430775699, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
