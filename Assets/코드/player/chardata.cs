@@ -110,10 +110,28 @@ public class chardata : MonoBehaviour
 
         animator.SetBool(animationname, true);
     }
+    public void Healanimation()
+    {
+        animator.SetBool("iswalking", false);
+        animator.SetBool("isruning", false);
+        animator.SetBool("isjumping", false);
+        animator.SetBool("isfalling", false);
+        animator.SetBool("playerstand", false);
 
+        animator.SetBool("heal", true);
+    }
+    public void Healanimationend()
+    {
+        animator.SetBool("heal", false);
+    }
     void ReturnAnimation()
     {
         if (dashing)
+        {
+            return;
+        }
+
+        if (bettaryheal.main != null && bettaryheal.main.isheal == true)
         {
             return;
         }
@@ -342,9 +360,14 @@ public class chardata : MonoBehaviour
             coyotetimer -= Time.deltaTime;
         }
 
+        if (bettaryheal.main != null && bettaryheal.main.isheal == true)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            stepground = Physics2D.OverlapCircle(groundCheck.position, groundchecksize, groundcheck);
+            return;
+        }
 
-
-        if(dashing == false)
+        if (dashing == false)
         {
             if (Input.GetKey(KeyCode.A)) //A키를 누르고 있는동안 작동
             {

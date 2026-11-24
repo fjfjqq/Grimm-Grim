@@ -120,7 +120,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -152,11 +152,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15154
-        y: 334
-        width: 7
-        height: 12
+        y: 0
+        width: 12
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,37 +170,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nightskydefeat-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 16874
-        y: 344
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2ec05a4d3c0f99d0800000000000000
-      internalID: -2765478188802847187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: nightskydefeat-Sheet_2
       rect:
         serializedVersion: 2
         x: 9919
         y: 0
         width: 217
-        height: 326
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,10 +197,10 @@ TextureImporter:
         serializedVersion: 2
         x: 11709
         y: 0
-        width: 17
-        height: 336
+        width: 16
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,37 +214,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nightskydefeat-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 13434
-        y: 324
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5db707f1eb217eb60800000000000000
-      internalID: 7775203889459002325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: nightskydefeat-Sheet_5
       rect:
         serializedVersion: 2
         x: 8199
         y: 0
         width: 217
-        height: 321
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,11 +240,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 13434
-        y: 139
-        width: 12
-        height: 147
+        y: 0
+        width: 16
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,59 +258,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nightskydefeat-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 15154
-        y: 204
-        width: 7
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8117779df35a2ea40800000000000000
-      internalID: 5396056997193281816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nightskydefeat-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 16874
-        y: 229
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ce3951ea058016e0800000000000000
-      internalID: -1868847563581866303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: nightskydefeat-Sheet_9
       rect:
         serializedVersion: 2
         x: 1294
         y: 0
         width: 207
-        height: 211
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -374,9 +286,9 @@ TextureImporter:
         x: 3014
         y: 0
         width: 207
-        height: 211
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,9 +308,9 @@ TextureImporter:
         x: 4734
         y: 0
         width: 207
-        height: 211
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -418,9 +330,9 @@ TextureImporter:
         x: 6454
         y: 0
         width: 207
-        height: 211
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -433,99 +345,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: nightskydefeat-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 15154
-        y: 154
-        width: 7
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 700cc627fd6a9a780800000000000000
-      internalID: -8671216128897531897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nightskydefeat-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 16874
-        y: 154
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79ffe2a64138fabe0800000000000000
-      internalID: -1463807230168072297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nightskydefeat-Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 13434
-        y: 99
-        width: 7
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9464c2154e107410800000000000000
-      internalID: 1472710360166589597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nightskydefeat-Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 15154
-        y: 129
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49d73833e296e3080800000000000000
-      internalID: -9205804941145047660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3695b5d48374d874e9552cf4a5aafae0
     internalID: 0
     vertices: []
     indices: 

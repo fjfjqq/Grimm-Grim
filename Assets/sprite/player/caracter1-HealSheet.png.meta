@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 8b72dda39b7b45b4384d257fcd4f1162
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2475222606864580705
+    second: caracter1-HealSheet_0
+  - first:
+      213: -4530595665668474720
+    second: caracter1-HealSheet_1
+  - first:
+      213: -2247588413549703044
+    second: caracter1-HealSheet_2
+  - first:
+      213: -4533067016731581239
+    second: caracter1-HealSheet_3
+  - first:
+      213: -5088089795078131992
+    second: caracter1-HealSheet_4
+  - first:
+      213: -6189836171904396175
+    second: caracter1-HealSheet_5
+  - first:
+      213: -7294970283060408655
+    second: caracter1-HealSheet_6
+  - first:
+      213: 1144159441769845083
+    second: caracter1-HealSheet_7
+  - first:
+      213: 5474788362058747522
+    second: caracter1-HealSheet_8
+  - first:
+      213: 1542770856965366149
+    second: caracter1-HealSheet_9
+  - first:
+      213: -6115453928688160428
+    second: caracter1-HealSheet_10
+  - first:
+      213: -8231520234355103128
+    second: caracter1-HealSheet_11
+  - first:
+      213: -1891931269855738605
+    second: caracter1-HealSheet_12
+  - first:
+      213: 3193772349557728064
+    second: caracter1-HealSheet_13
+  - first:
+      213: -2105821330811243451
+    second: caracter1-HealSheet_14
+  - first:
+      213: 6931290131391579837
+    second: caracter1-HealSheet_15
+  - first:
+      213: -7269433786794512578
+    second: caracter1-HealSheet_16
+  - first:
+      213: -7871749277652916414
+    second: caracter1-HealSheet_17
+  - first:
+      213: 1519110632875235462
+    second: caracter1-HealSheet_18
+  - first:
+      213: 8325532276593996622
+    second: caracter1-HealSheet_19
+  - first:
+      213: -9185529557489674296
+    second: caracter1-HealSheet_20
+  - first:
+      213: 2296822637538763552
+    second: caracter1-HealSheet_21
+  - first:
+      213: -4218988224397745632
+    second: caracter1-HealSheet_22
+  - first:
+      213: 5859645474276922696
+    second: caracter1-HealSheet_23
+  - first:
+      213: 3974166254540910539
+    second: caracter1-HealSheet_24
+  - first:
+      213: 3883203719235162803
+    second: caracter1-HealSheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caracter1-HealSheet_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 57
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4aca4c09f4711c0800000000000000
+      internalID: -4533067016731581239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_4
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 67
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eee31b0a497369b0800000000000000
+      internalID: -5088089795078131992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 0
+        width: 67
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17456cbfbc8491aa0800000000000000
+      internalID: -6189836171904396175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 0
+        width: 62
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be472f8d2f03ca90800000000000000
+      internalID: -7294970283060408655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 0
+        width: 57
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51d91543fed0ef00800000000000000
+      internalID: 1144159441769845083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 0
+        width: 57
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e44f4320b5afb40800000000000000
+      internalID: 5474788362058747522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_9
+      rect:
+        serializedVersion: 2
+        x: 4344
+        y: 0
+        width: 66
+        height: 136
+      alignment: 9
+      pivot: {x: 0.49402964, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581ee33abe5096510800000000000000
+      internalID: 1542770856965366149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_11
+      rect:
+        serializedVersion: 2
+        x: 5025
+        y: 0
+        width: 80
+        height: 136
+      alignment: 9
+      pivot: {x: 0.47681275, y: 0.49727312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ae2d595f3c3cd80800000000000000
+      internalID: -8231520234355103128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_13
+      rect:
+        serializedVersion: 2
+        x: 5699
+        y: 0
+        width: 86
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5176746, y: 0.50279427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0436ad4d70f825c20800000000000000
+      internalID: 3193772349557728064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_15
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 0
+        width: 86
+        height: 145
+      alignment: 9
+      pivot: {x: 0.4734852, y: 0.46854922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db604c4a6a3e03060800000000000000
+      internalID: 6931290131391579837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_16
+      rect:
+        serializedVersion: 2
+        x: 7077
+        y: 0
+        width: 81
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5483338, y: 0.46282023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fe3eb6c78cd1b90800000000000000
+      internalID: -7269433786794512578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caracter1-HealSheet_17
+      rect:
+        serializedVersion: 2
+        x: 7774
+        y: 0
+        width: 57
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2476f800dbde1c290800000000000000
+      internalID: -7871749277652916414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e2ec888e0b74f204b8e41a3de5b9dc18
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      caracter1-HealSheet_0: -2475222606864580705
+      caracter1-HealSheet_1: -4530595665668474720
+      caracter1-HealSheet_10: -6115453928688160428
+      caracter1-HealSheet_11: -8231520234355103128
+      caracter1-HealSheet_12: -1891931269855738605
+      caracter1-HealSheet_13: 3193772349557728064
+      caracter1-HealSheet_14: -2105821330811243451
+      caracter1-HealSheet_15: 6931290131391579837
+      caracter1-HealSheet_16: -7269433786794512578
+      caracter1-HealSheet_17: -7871749277652916414
+      caracter1-HealSheet_18: 1519110632875235462
+      caracter1-HealSheet_19: 8325532276593996622
+      caracter1-HealSheet_2: -2247588413549703044
+      caracter1-HealSheet_20: -9185529557489674296
+      caracter1-HealSheet_21: 2296822637538763552
+      caracter1-HealSheet_22: -4218988224397745632
+      caracter1-HealSheet_23: 5859645474276922696
+      caracter1-HealSheet_24: 3974166254540910539
+      caracter1-HealSheet_25: 3883203719235162803
+      caracter1-HealSheet_3: -4533067016731581239
+      caracter1-HealSheet_4: -5088089795078131992
+      caracter1-HealSheet_5: -6189836171904396175
+      caracter1-HealSheet_6: -7294970283060408655
+      caracter1-HealSheet_7: 1144159441769845083
+      caracter1-HealSheet_8: 5474788362058747522
+      caracter1-HealSheet_9: 1542770856965366149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
