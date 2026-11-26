@@ -15,6 +15,7 @@ public class bossrush : bosspatern
     public float endwait = 0.5f;
 
     private Animator animator;
+    public bool flipinrush = false;
 
     private void Awake()
     {
@@ -42,9 +43,16 @@ public class bossrush : bosspatern
             dirx = -1f;
         }
 
-        boss.Facedirection(dirx); //준비자세 어디를 보고 있냐를 판단해주는거
+        if (flipinrush == true)
+        {
+            boss.Facedirection(-dirx);
+        }
+        else
+        {
+            boss.Facedirection(dirx);
+        }
 
-        if(animator != null)
+        if (animator != null)
         {
             animator.SetTrigger("rush");
         }

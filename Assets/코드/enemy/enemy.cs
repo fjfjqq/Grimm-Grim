@@ -72,6 +72,12 @@ public class enemy : MonoBehaviour
             enemy.dead();
         }
 
+        rangerenemy ranged = GetComponent<rangerenemy>();   
+        if (ranged != null)                                  
+        {                                                    
+            ranged.dead();                                   
+        }
+
         chardata player = FindAnyObjectByType<chardata>();
         if(player != null)
         {

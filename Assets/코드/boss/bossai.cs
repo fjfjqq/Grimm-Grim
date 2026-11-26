@@ -17,16 +17,22 @@ public class bossai : MonoBehaviour
     private Animator animator;
     private int lastpattern = -1;
     private float basescalex;
+
+    public bool flipsprite = false;
     private void Awake()
     {
         animator = GetComponent<Animator>();
         basescalex = Mathf.Abs(transform.localScale.x);
+
+        if (patterns == null || patterns.Length == 0)
+        {
+            patterns = GetComponents<bosspatern>(); 
+        }
     }
 
     private void Start()
     {
         removeside();
-        StartCoroutine(Patternloop());
     }
     private void Update()
     {
@@ -34,7 +40,30 @@ public class bossai : MonoBehaviour
         {
             return;
         }
+
+        if (Patternrunning() == true)
+        {
+            return;
+        }
+
         Lookplayer();
+    }
+
+    private bool Patternrunning()
+    {
+        if (patterns == null)
+        {
+            return false;
+        }
+
+        for (int i = 0; i < patterns.Length; i++)
+        {
+            if (patterns[i].running == true)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     private void removeside()
@@ -80,6 +109,11 @@ public class bossai : MonoBehaviour
 
     public void Facedirection(float dirx)
     {
+        if (flipsprite == true)
+        {
+            dirx = -dirx;
+        }
+
         float scalex = basescalex;
         if(dirx < 0f)
         {
@@ -153,5 +187,10 @@ public class bossai : MonoBehaviour
             patterns[i].StopAllCoroutines();
             patterns[i].running = false;
         }
+    }
+
+    public void Startboss()
+    {
+        StartCoroutine(Patternloop());
     }
 }
